@@ -7,7 +7,7 @@ Consequently, AuRaCh can be employed for non-irradiated  chemical reaction kinet
 
 Its working principle is described in:
 
-B. Fritsch, T.S. Zech, M.P Bruns, A. Körner, S. Khadivianazar, M. Wu, N. Zargar Talebi, S. Virtanen, T. Unruh, M.P.M. Jank, E. Spiecker, A. Hutzler, Radiolysis‐Driven Evolution of Gold Nanostructures –
+B. Fritsch, T.S. Zech, M.P. Bruns, A. Körner, S. Khadivianazar, M. Wu, N. Zargar Talebi, S. Virtanen, T. Unruh, M.P.M. Jank, E. Spiecker, A. Hutzler, Radiolysis‐Driven Evolution of Gold Nanostructures –
 Model Verification by Scale Bridging _in situ_ Liquid‐Phase Transmission Electron
 Microscopy and X‐Ray Diffraction, _Advanced Science_ 2022, 2202803. [DOI:10.1002/advs.202202803](https://doi.org/10.1002/advs.202202803)
 
