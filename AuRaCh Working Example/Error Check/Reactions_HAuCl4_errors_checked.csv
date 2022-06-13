@@ -1,0 +1,189 @@
+,Charge test,Element test,Educt charges,Product charges,Educt Elements,Product Elements,Reaction
+1,True,True,0,0,"{'H': 2, 'O': 1}","{'H': 2, 'O': 1}",H2O     --> H+ + OH-     
+2,True,True,0,0,"{'H': 2, 'O': 1}","{'H': 2, 'O': 1}",H+ + OH-    --> H2O      
+3,True,True,0,0,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",H2O2     --> H+ + HO2-     
+4,True,True,0,0,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",H+ + HO2-    --> H2O2      
+5,True,True,-1,-1,"{'H': 3, 'O': 3}","{'H': 3, 'O': 3}",H2O2 + OH-    --> HO2- + H2O     
+6,True,True,-1,-1,"{'H': 3, 'O': 3}","{'H': 3, 'O': 3}",HO2- + H2O    --> H2O2 + OH-     
+7,True,True,-1,-1,"{'H': 2, 'O': 1}","{'H': 2, 'O': 1}",eh- + H2O    --> H + OH-     
+8,True,True,-1,-1,"{'H': 2, 'O': 1}","{'H': 2, 'O': 1}",H + OH-    --> eh- + H2O     
+9,True,True,0,0,{'H': 1},{'H': 1},H      --> eh- + H+     
+10,True,True,0,0,{'H': 1},{'H': 1},eh- + H+    --> H       
+11,True,True,-1,-1,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",OH + OH-    --> O- +  H2O     
+12,True,True,-1,-1,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",O- + H2O    --> OH + OH-     
+13,True,True,0,0,"{'H': 1, 'O': 1}","{'H': 1, 'O': 1}",OH      --> O- + H+     
+14,True,True,0,0,"{'H': 1, 'O': 1}","{'H': 1, 'O': 1}",O- + H+    --> OH       
+15,True,True,0,0,"{'H': 1, 'O': 2}","{'H': 1, 'O': 2}",HO2     --> O2- + H+     
+16,True,True,0,0,"{'H': 1, 'O': 2}","{'H': 1, 'O': 2}",O2- + H+    --> HO2      
+17,True,True,-1,-1,"{'H': 2, 'O': 3}","{'H': 2, 'O': 3}",HO2 + OH-    --> O2- + H2O     
+18,True,True,-1,-1,"{'H': 2, 'O': 3}","{'H': 2, 'O': 3}",O2- + H2O    --> HO2 + OH-     
+19,True,True,-1,-1,"{'H': 1, 'O': 1}","{'H': 1, 'O': 1}",eh- + OH    --> OH-      
+20,True,True,-1,-1,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",eh- + H2O2    --> OH + OH-     
+21,True,True,-2,-2,"{'H': 2, 'O': 3}","{'H': 2, 'O': 3}",eh- + O2- + H2O  --> HO2- + OH-     
+22,True,True,-1,-1,"{'H': 1, 'O': 2}","{'H': 1, 'O': 2}",eh- + HO2    --> HO2-      
+23,True,True,-1,-1,{'O': 2},{'O': 2},eh- + O2    --> O2-      
+24,True,True,-2,-2,"{'H': 4, 'O': 2}","{'H': 4, 'O': 2}",2 eh- + 2 H2O   --> H2 + 2 OH-     
+25,True,True,-1,-1,"{'H': 3, 'O': 1}","{'H': 3, 'O': 1}",eh- + H + H2O   --> H2 + OH-     
+26,True,True,-2,-2,"{'H': 1, 'O': 2}","{'H': 1, 'O': 2}",eh- + HO2-    --> O- + OH-     
+27,True,True,-2,-2,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",eh- + O- + H2O   --> OH- + OH-     
+28,True,True,-2,-2,"{'H': 2, 'O': 4}","{'H': 2, 'O': 4}",eh- + O3- + H2O  --> O2 + OH- + OH-    
+29,True,True,-1,-1,{'O': 3},{'O': 3},eh- + O3    --> O3-      
+30,True,True,0,0,"{'H': 3, 'O': 1}","{'H': 3, 'O': 1}",H + H2O    --> H2 + OH     
+31,True,True,-1,-1,"{'H': 1, 'O': 1}","{'H': 1, 'O': 1}",H + O-     --> OH-      
+32,True,True,-1,-1,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",H + HO2-    --> OH + OH-     
+33,True,True,-1,-1,"{'H': 1, 'O': 3}","{'H': 1, 'O': 3}",H + O3-    --> OH- + O2     
+34,True,True,0,0,{'H': 2},{'H': 2},2 H     --> H2       
+35,True,True,0,0,"{'H': 2, 'O': 1}","{'H': 2, 'O': 1}",H + OH     --> H2O      
+36,True,True,0,0,"{'H': 3, 'O': 2}","{'H': 3, 'O': 2}",H + H2O2    --> OH + H2O     
+37,True,True,0,0,"{'H': 1, 'O': 2}","{'H': 1, 'O': 2}",H + O2     --> HO2      
+38,True,True,0,0,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",H + HO2    --> H2O2      
+39,True,True,-1,-1,"{'H': 1, 'O': 2}","{'H': 1, 'O': 2}",H + O2-    --> HO2-      
+40,True,True,0,0,"{'H': 1, 'O': 3}","{'H': 1, 'O': 3}",H + O3     --> HO3      
+41,True,True,0,0,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",2 OH     --> H2O2      
+42,True,True,0,0,"{'H': 2, 'O': 3}","{'H': 2, 'O': 3}",OH + HO2    --> H2O + O2     
+43,True,True,-1,-1,"{'H': 1, 'O': 3}","{'H': 1, 'O': 3}",OH + O2-    --> OH- + O2     
+44,True,True,0,0,"{'H': 3, 'O': 1}","{'H': 3, 'O': 1}",OH + H2    --> H + H2O     
+45,True,True,0,0,"{'H': 3, 'O': 3}","{'H': 3, 'O': 3}",OH + H2O2    --> HO2 + H2O     
+46,True,True,-1,-1,"{'H': 1, 'O': 2}","{'H': 1, 'O': 2}",OH + O-    --> HO2-      
+47,True,True,-1,-1,"{'H': 2, 'O': 3}","{'H': 2, 'O': 3}",OH + HO2-    --> HO2 + OH-     
+48,True,True,-1,-1,"{'H': 1, 'O': 4}","{'H': 1, 'O': 4}",OH + O3-    --> O3 + OH-     
+49,True,True,-1,-1,"{'H': 1, 'O': 4}","{'H': 1, 'O': 4}",OH + O3-    --> 2 O2- + H+     
+50,True,True,0,0,"{'H': 1, 'O': 4}","{'H': 1, 'O': 4}",OH + O3    --> HO2 + O2     
+51,True,True,-1,-1,"{'H': 1, 'O': 4}","{'H': 1, 'O': 4}",HO2 + O2-    --> HO2- + O2     
+52,True,True,0,0,"{'H': 2, 'O': 4}","{'H': 2, 'O': 4}",HO2 + HO2    --> H2O2 + O2     
+53,True,True,-1,-1,"{'H': 1, 'O': 3}","{'H': 1, 'O': 3}",HO2 + O-    --> O2 + OH-     
+54,True,True,0,0,"{'H': 3, 'O': 4}","{'H': 3, 'O': 4}",HO2 + H2O2    --> OH + O2 + H2O    
+55,True,True,-1,-1,"{'H': 2, 'O': 4}","{'H': 2, 'O': 4}",HO2 + HO2-    --> OH + O2 + OH-    
+56,True,True,-1,-1,"{'H': 1, 'O': 5}","{'H': 1, 'O': 5}",HO2 + O3-    --> O2 + O2 + OH-    
+57,True,True,0,0,"{'H': 1, 'O': 5}","{'H': 1, 'O': 5}",HO2 + O3    --> HO3 + O2     
+58,True,True,-2,-2,"{'H': 4, 'O': 6}","{'H': 4, 'O': 6}",2 O2- + 2 H2O   --> H2O2 + O2 + 2 OH-   
+59,True,True,-2,-2,"{'H': 2, 'O': 4}","{'H': 2, 'O': 4}",O2- + O- + H2O   --> O2 + 2 OH-     
+60,True,True,-1,-1,"{'H': 2, 'O': 4}","{'H': 2, 'O': 4}",O2- + H2O2    --> OH + O2 + OH-    
+61,True,True,-2,-2,"{'H': 1, 'O': 4}","{'H': 1, 'O': 4}",O2- + HO2-    --> O- + O2 + OH-    
+62,True,True,-2,-2,"{'H': 2, 'O': 6}","{'H': 2, 'O': 6}",O2- + O3- + H2O  --> O2 + O2 + 2 OH-   
+63,True,True,-1,-1,{'O': 5},{'O': 5},O2- + O3    --> O3- + O2     
+64,True,True,-2,-2,"{'H': 2, 'O': 3}","{'H': 2, 'O': 3}",2 O- +  H2O   --> HO2- + OH-     
+65,True,True,-1,-1,{'O': 3},{'O': 3},O- + O2    --> O3-      
+66,True,True,-1,-1,"{'H': 2, 'O': 1}","{'H': 2, 'O': 1}",O- + H2    --> H + OH-     
+67,True,True,-1,-1,"{'H': 2, 'O': 3}","{'H': 2, 'O': 3}",O- + H2O2    --> O2- + H2O     
+68,True,True,-2,-2,"{'H': 1, 'O': 3}","{'H': 1, 'O': 3}",O- + HO2-   --> O2- + OH-     
+69,True,True,-2,-2,{'O': 4},{'O': 4},O- + O3-    --> O2- + O2-     
+70,True,True,-1,-1,{'O': 4},{'O': 4},O- + O3    --> O2- + O2     
+71,True,True,-1,-1,{'O': 3},{'O': 3},O3-     --> O2 + O-     
+72,True,True,0,0,"{'H': 1, 'O': 3}","{'H': 1, 'O': 3}",O3- + H+    --> O2 + OH     
+73,True,True,0,0,"{'H': 1, 'O': 3}","{'H': 1, 'O': 3}",HO3     --> O2 + OH     
+74,True,True,0,0,"{'H': 2, 'O': 2}","{'H': 2, 'O': 2}",H2O2    --> H2O + O    
+75,True,True,0,0,{'O': 2},{'O': 2},2 O     --> O2      
+76,True,True,0,0,{'O': 2},{'O': 2},O + O    --> O2      
+77,True,True,0,0,{'O': 3},{'O': 3},O3     --> O2  + O    
+78,False,False,0,-1,{'O': 4},{'O': 4},O3     --> O3  + O-    
+79,True,True,-2,-2,"{'H': 2, 'O': 7}","{'H': 2, 'O': 7}",2 O3- + H2O   --> OH- + HO2- + 2 O2  
+80,True,True,0,0,"{'H': 2, 'O': 6}","{'H': 2, 'O': 6}",2 HO3    --> H2O2 + 2 O2    
+81,True,True,-1,-1,"{'H': 1, 'O': 4}","{'H': 1, 'O': 4}",O3 + OH-   --> HO2- + O2    
+82,True,True,0,0,{'O': 3},{'O': 3},O2 + O   --> O3      
+83,True,True,0,0,"{'H': 2, 'O': 3}","{'H': 2, 'O': 3}",H2O2 + O   --> OH + HO2    
+84,True,True,-1,-1,"{'H': 1, 'O': 3}","{'H': 1, 'O': 3}",O + HO2-  --> OH + O2-    
+85,True,True,-1,-1,"{'H': 1, 'O': 2}","{'H': 1, 'O': 2}",O + OH-   --> HO2-     
+86,True,True,-1,-1,"{'Cl': 1, 'H': 1, 'O': 1}","{'Cl': 1, 'H': 1, 'O': 1}",OH + Cl-   --> ClOH-     
+87,True,True,0,0,"{'Cl': 1, 'H': 2, 'O': 2}","{'Cl': 1, 'H': 2, 'O': 2}",OH + HClO  --> ClO + H2O    
+88,True,True,0,0,"{'Cl': 1, 'H': 2, 'O': 3}","{'Cl': 1, 'H': 2, 'O': 3}",OH + ClO2- + H+ --> ClO2 + H2O    
+89,True,True,-1,-1,{'Cl': 1},{'Cl': 1},eh- + Cl   --> Cl-      
+90,True,True,-2,-2,{'Cl': 2},{'Cl': 2},eh- + Cl2-  --> 2 Cl-     
+91,True,True,-2,-2,"{'Cl': 1, 'H': 1, 'O': 1}","{'Cl': 1, 'H': 1, 'O': 1}",eh- + ClOH-  --> Cl- + OH-    
+92,True,True,-1,-1,"{'Cl': 1, 'H': 1, 'O': 1}","{'Cl': 1, 'H': 1, 'O': 1}",eh- + HClO  --> ClOH-     
+93,True,True,-1,-1,{'Cl': 2},{'Cl': 2},eh- +  Cl2   --> Cl2-     
+94,True,True,-2,-2,{'Cl': 3},{'Cl': 3},eh- +  Cl3-  --> Cl2- + Cl-    
+95,True,True,-1,-1,"{'Cl': 1, 'H': 1, 'O': 2}","{'Cl': 1, 'H': 1, 'O': 2}",eh- + ClO2- + H+ --> ClO + OH-    
+96,True,True,-1,-1,"{'Cl': 1, 'H': 1, 'O': 3}","{'Cl': 1, 'H': 1, 'O': 3}",eh- + ClO3- + H+ --> ClO2 + OH-    
+97,True,True,0,0,"{'Cl': 1, 'H': 1}","{'Cl': 1, 'H': 1}",H + Cl   --> Cl- + H+    
+98,True,True,-1,-1,"{'Cl': 2, 'H': 1}","{'Cl': 2, 'H': 1}",H + Cl2-  --> 2 Cl- + H+    
+99,True,True,-1,-1,"{'Cl': 1, 'H': 2, 'O': 1}","{'Cl': 1, 'H': 2, 'O': 1}",H + ClOH-  --> Cl- + H2O    
+100,True,True,0,0,"{'Cl': 2, 'H': 1}","{'Cl': 2, 'H': 1}",H + Cl2   --> Cl2- + H+    
+101,True,True,0,0,"{'Cl': 1, 'H': 2, 'O': 1}","{'Cl': 1, 'H': 2, 'O': 1}",H + HClO  --> ClOH- + H+    
+102,True,True,-1,-1,"{'Cl': 3, 'H': 1}","{'Cl': 3, 'H': 1}",H + Cl3-  --> Cl2- + Cl- + H+  
+103,True,True,-1,-1,"{'Cl': 2, 'H': 1, 'O': 2}","{'Cl': 2, 'H': 1, 'O': 2}",HO2 + Cl2-  --> Cl- + HCl + O2  
+104,True,True,0,0,"{'Cl': 1, 'H': 1}","{'Cl': 1, 'H': 1}",HCl     --> Cl- + H+    
+105,True,True,0,0,"{'Cl': 1, 'H': 1}","{'Cl': 1, 'H': 1}",Cl- + H+   --> HCl      
+106,True,True,0,0,"{'Cl': 2, 'H': 1, 'O': 2}","{'Cl': 2, 'H': 1, 'O': 2}",HO2 + Cl2   --> Cl2- + O2 + H+  
+107,True,True,-1,-1,"{'Cl': 3, 'H': 1, 'O': 2}","{'Cl': 3, 'H': 1, 'O': 2}",HO2 + Cl3-  --> Cl2- + HCl + O2  
+108,True,True,-2,-2,"{'Cl': 2, 'O': 2}","{'Cl': 2, 'O': 2}",O2- + Cl2-  --> 2 Cl- + O2    
+109,True,True,-1,-1,"{'Cl': 1, 'H': 1, 'O': 3}","{'Cl': 1, 'H': 1, 'O': 3}",O2- + HClO  --> ClOH- + O2    
+110,True,True,-1,-1,"{'Cl': 2, 'H': 2, 'O': 2}","{'Cl': 2, 'H': 2, 'O': 2}",H2O2 +  Cl2-  --> 2 HCl + O2-    
+111,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 2}","{'Cl': 2, 'H': 2, 'O': 2}",H2O2 +  Cl2   --> HO2 + Cl2- +  H+  
+112,True,True,0,0,"{'Cl': 1, 'H': 3, 'O': 3}","{'Cl': 1, 'H': 3, 'O': 3}",H2O2 + HClO  --> HCl + H2O + O2  
+113,True,True,-2,-2,"{'Cl': 2, 'H': 1, 'O': 1}","{'Cl': 2, 'H': 1, 'O': 1}",OH- + Cl2-  --> ClOH- + Cl-    
+114,True,True,-1,-1,"{'Cl': 2, 'H': 1, 'O': 1}","{'Cl': 2, 'H': 1, 'O': 1}",OH- + Cl2   --> HClO + Cl-    
+115,True,True,0,0,"{'Cl': 1, 'H': 2, 'O': 1}","{'Cl': 1, 'H': 2, 'O': 1}",H+ + ClOH-  --> Cl + H2O    
+116,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 3}","{'Cl': 2, 'H': 2, 'O': 3}",H2O + Cl2O2  --> HClO + ClO2- + H+ 
+117,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 2}","{'Cl': 2, 'H': 2, 'O': 2}",H2O + Cl2O  --> 2 HClO     
+118,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 5}","{'Cl': 2, 'H': 2, 'O': 5}",H2O + Cl2O4  --> ClO2- + ClO3- + 2 H+  
+119,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 5}","{'Cl': 2, 'H': 2, 'O': 5}",H2O + Cl2O4  --> HClO + HCl + O4 
+120,True,True,0,0,{'O': 4},{'O': 4},O4     --> 2 O2     
+121,True,True,-1,-1,{'Cl': 2},{'Cl': 2},Cl- +  Cl   --> Cl2-     
+122,True,True,-2,-2,"{'Cl': 2, 'H': 1, 'O': 1}","{'Cl': 2, 'H': 1, 'O': 1}",Cl- +  ClOH-  --> Cl2- + OH-   
+123,True,True,-1,-1,"{'Cl': 2, 'H': 1, 'O': 1}","{'Cl': 2, 'H': 1, 'O': 1}",Cl- + HClO  --> Cl2 + OH-    
+124,True,True,-1,-1,{'Cl': 3},{'Cl': 3},Cl- + Cl2   --> Cl3-     
+125,True,True,-1,-1,"{'Cl': 1, 'H': 1, 'O': 1}","{'Cl': 1, 'H': 1, 'O': 1}",ClOH-    --> OH + Cl-    
+126,True,True,-1,-1,{'Cl': 2},{'Cl': 2},Cl2-    --> Cl + Cl-    
+127,True,True,-2,-2,{'Cl': 4},{'Cl': 4},2 Cl2-    --> Cl3- + Cl-   
+128,True,True,-1,-1,{'Cl': 3},{'Cl': 3},Cl3-    --> Cl2 + Cl-    
+129,True,True,0,0,"{'Cl': 2, 'O': 2}","{'Cl': 2, 'O': 2}",2 ClO    --> Cl2O2     
+130,True,True,0,0,"{'Cl': 2, 'O': 4}","{'Cl': 2, 'O': 4}",2 ClO2    --> Cl2O4     
+131,True,True,-1,-1,"{'Cl': 3, 'O': 4}","{'Cl': 3, 'O': 4}",Cl2O2 + ClO2-  --> ClO3- + Cl2O  
+132,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 2}","{'Cl': 2, 'H': 2, 'O': 2}",2 HClO    --> Cl- + ClO2- + 2 H+  
+133,True,True,-1,-1,"{'Cl': 2, 'H': 1, 'O': 3}","{'Cl': 2, 'H': 1, 'O': 3}",ClO2- + HClO  --> Cl- + ClO3- + H+  
+134,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 2}","{'Cl': 2, 'H': 2, 'O': 2}",2 HClO    --> O2 + 2 HCl   
+135,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 1}","{'Cl': 2, 'H': 2, 'O': 1}",HClO + Cl- + H+ --> Cl2 + H2O    
+136,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 1}","{'Cl': 2, 'H': 2, 'O': 1}",Cl2 + H2O   --> HClO + Cl- + H+   
+137,True,True,-1,-1,"{'Cl': 2, 'H': 2}","{'Cl': 2, 'H': 2}",Cl2- + H2  --> H + HCl + Cl-   
+138,True,True,0,0,{'Cl': 2},{'Cl': 2},2 Cl    --> Cl2      
+139,True,True,0,0,"{'Cl': 1, 'O': 5}","{'Cl': 1, 'O': 5}",ClO2 + O3  --> O2 + ClO3    
+140,True,True,0,0,"{'Cl': 1, 'H': 1, 'O': 3}","{'Cl': 1, 'H': 1, 'O': 3}",ClO2 + OH  --> ClO3- + H+   
+141,True,True,-1,-1,"{'Cl': 1, 'O': 3}","{'Cl': 1, 'O': 3}",ClO2 + O-  --> ClO3-     
+142,True,True,-1,-1,"{'Cl': 1, 'O': 5}","{'Cl': 1, 'O': 5}",ClO2 + O3-  --> O2 + ClO3-    
+143,True,True,-1,-1,"{'Cl': 1, 'O': 5}","{'Cl': 1, 'O': 5}",ClO2 + O3-  --> O3 + ClO2-    
+144,True,True,-1,-1,"{'Cl': 1, 'O': 5}","{'Cl': 1, 'O': 5}",ClO2- + O3  --> O3- + ClO2    
+145,True,True,0,0,"{'Cl': 1, 'O': 2}","{'Cl': 1, 'O': 2}",ClO2    --> O2 + Cl    
+146,True,True,0,0,"{'Cl': 1, 'H': 1, 'O': 1}","{'Cl': 1, 'H': 1, 'O': 1}",HClO    --> H+ + ClO-    
+147,True,True,0,0,"{'Cl': 1, 'H': 1, 'O': 1}","{'Cl': 1, 'H': 1, 'O': 1}",H+ + ClO-   --> HClO     
+148,True,True,0,0,"{'Cl': 1, 'H': 1, 'O': 2}","{'Cl': 1, 'H': 1, 'O': 2}",HClO2    --> H+ + ClO2-    
+149,True,True,0,0,"{'Cl': 1, 'H': 1, 'O': 2}","{'Cl': 1, 'H': 1, 'O': 2}",H+ + ClO2-   --> HClO2     
+150,True,True,-1,-1,"{'Cl': 1, 'O': 3}","{'Cl': 1, 'O': 3}",Cl + O3-   --> Cl- + O3    
+151,True,True,-1,-1,"{'Cl': 1, 'O': 4}","{'Cl': 1, 'O': 4}",ClO + O3-   --> ClO- + O3    
+152,True,True,-1,-1,"{'Cl': 3, 'O': 2}","{'Cl': 3, 'O': 2}",Cl2- + ClO2   --> Cl2O2 + Cl-    
+153,True,True,0,0,"{'Cl': 2, 'O': 2}","{'Cl': 2, 'O': 2}",Cl + ClO2   --> Cl2O2     
+154,True,True,-1,-1,"{'Cl': 2, 'O': 3}","{'Cl': 2, 'O': 3}",ClO + ClO2-   --> ClO- + ClO2    
+155,False,False,-2,-1,"{'Cl': 1, 'H': 1, 'O': 2}","{'Cl': 1, 'H': 1, 'O': 2}",ClO- + O-    --> ClO + OH-    
+156,True,True,-1,-1,"{'Cl': 1, 'H': 2, 'O': 2}","{'Cl': 1, 'H': 2, 'O': 2}",Cl- + H2O2   --> ClO- + H2O    
+157,True,True,0,0,"{'Cl': 1, 'H': 3, 'O': 2}","{'Cl': 1, 'H': 3, 'O': 2}",Cl- + H2O2 + H+  --> HClO + H2O    
+158,True,True,-1,-1,"{'Cl': 1, 'H': 2, 'O': 3}","{'Cl': 1, 'H': 2, 'O': 3}",ClO- + H2O2   --> Cl- + O2 + H2O   
+159,True,True,-1,-1,"{'Cl': 1, 'H': 2, 'O': 3}","{'Cl': 1, 'H': 2, 'O': 3}",HClO + HO2-   --> Cl- + O2 + H2O   
+160,True,True,-1,-1,"{'Cl': 2, 'H': 1, 'O': 2}","{'Cl': 2, 'H': 1, 'O': 2}",Cl2 + HO2-   --> 2 Cl- + O2 + H+   
+161,True,True,0,0,"{'Cl': 1, 'H': 2, 'O': 2}","{'Cl': 1, 'H': 2, 'O': 2}",Cl + H2O2   --> Cl- + H+ + HO2   
+162,True,True,0,0,"{'Cl': 1, 'H': 1, 'O': 2}","{'Cl': 1, 'H': 1, 'O': 2}",Cl + HO2   --> Cl- + H+ + O2   
+163,True,True,-1,-1,"{'Cl': 1, 'H': 1, 'O': 1}","{'Cl': 1, 'H': 1, 'O': 1}",Cl + OH-   --> ClOH-     
+164,True,True,0,0,"{'Cl': 1, 'H': 2, 'O': 4}","{'Cl': 1, 'H': 2, 'O': 4}",ClO2 + H2O2   --> ClO2- + H+ + HO2  
+165,True,True,-1,-1,"{'Cl': 1, 'H': 1, 'O': 4}","{'Cl': 1, 'H': 1, 'O': 4}",ClO2 + HO2-   --> ClO2- + HO2    
+166,True,True,0,0,"{'Cl': 1, 'H': 1, 'O': 4}","{'Cl': 1, 'H': 1, 'O': 4}",ClO2 + HO2   --> ClO2- + H+ + O2   
+167,True,True,-1,-1,"{'Cl': 1, 'O': 4}","{'Cl': 1, 'O': 4}",ClO2 + O2-   --> ClO2- + O2    
+168,True,True,-2,-2,"{'Cl': 1, 'O': 4}","{'Cl': 1, 'O': 4}",ClO2- + O2-   --> ClO- + O- + O2   
+169,True,True,0,0,"{'Cl': 2, 'O': 3}","{'Cl': 2, 'O': 3}",ClO + ClO2   --> Cl2O3     
+170,True,True,0,0,"{'Cl': 2, 'O': 4}","{'Cl': 2, 'O': 4}",ClO + ClO3   --> Cl2O4     
+171,True,True,-1,-1,"{'Cl': 2, 'H': 1, 'O': 3}","{'Cl': 2, 'H': 1, 'O': 3}",Cl2O2 + OH-   --> Cl- + ClO3- + H+  
+172,True,True,0,0,"{'Cl': 2, 'H': 2, 'O': 4}","{'Cl': 2, 'H': 2, 'O': 4}",Cl2O3 + H2O   --> HClO + ClO3- + H+  
+173,True,True,-1,-1,"{'Cl': 1, 'H': 1, 'O': 1}","{'Cl': 1, 'H': 1, 'O': 1}",ClOH-     --> Cl + OH-    
+174,True,True,0,0,"{'Cl': 1, 'H': 2, 'O': 1}","{'Cl': 1, 'H': 2, 'O': 1}",Cl + H2O   --> ClOH- + H+    
+175,True,True,-1,-1,"{'H': 3, 'O': 3}","{'H': 3, 'O': 3}",H2O2 + OH-    --> H2O + HO2-     
+176,True,True,-1,-1,"{'Cl': 2, 'O': 3}","{'Cl': 2, 'O': 3}",Cl2- + O3   --> ClO + Cl- + O2   
+177,True,True,-3,-3,"{'Au': 1, 'Cl': 4, 'H': 1, 'O': 1}","{'Au': 1, 'Cl': 4, 'H': 1, 'O': 1}",Au(I)Cl2- + 2 Cl- + OH  --> Au(II)Cl4^2- + OH-   
+178,True,True,-1,-1,"{'Au': 1, 'Cl': 4, 'H': 1}","{'Au': 1, 'Cl': 4, 'H': 1}",Au(III)Cl4- + H   --> Au(II)Cl4^2- + H+   
+179,True,True,-2,-2,"{'Au': 1, 'Cl': 4}","{'Au': 1, 'Cl': 4}",Au(III)Cl4- + eh-   --> Au(II)Cl4^2-    
+180,True,True,-4,-4,"{'Au': 2, 'Cl': 8}","{'Au': 2, 'Cl': 8}",2 Au(II)Cl4^2-    --> Au2Cl6^2- + 2 Cl-   
+181,True,True,-2,-2,"{'Au': 1, 'Cl': 2}","{'Au': 1, 'Cl': 2}",Au(I)Cl2- + eh-   --> Au + 2 Cl-    
+182,True,True,-1,-1,"{'Au': 1, 'Cl': 2, 'H': 1}","{'Au': 1, 'Cl': 2, 'H': 1}",Au(I)Cl2- + H    --> Au + H+ + 2 Cl-   
+183,True,True,-2,-2,"{'Au': 1, 'Cl': 2, 'H': 1, 'O': 2}","{'Au': 1, 'Cl': 2, 'H': 1, 'O': 2}",Au(I)Cl2- + HO2-   --> Au + HO2 + 2 Cl-  
+184,True,True,-1,-1,"{'Au': 1, 'Cl': 2, 'H': 2}","{'Au': 1, 'Cl': 2, 'H': 2}",Au(I)Cl2- + H2    --> Au + H+ + H + 2 Cl-  
+185,True,True,-2,-2,"{'Au': 1, 'Cl': 2, 'O': 2}","{'Au': 1, 'Cl': 2, 'O': 2}",Au(I)Cl2- + O2-   --> Au + O2 + 2 Cl-   
+186,True,True,-2,-2,"{'Au': 1, 'Cl': 2, 'H': 1, 'O': 1}","{'Au': 1, 'Cl': 2, 'H': 1, 'O': 1}",Au + ClOH- + Cl-   --> Au(I)Cl2- + OH-   
+187,True,True,-2,-2,"{'Au': 2, 'Cl': 6}","{'Au': 2, 'Cl': 6}",Au2Cl6^2-     --> Au(I)Cl2- + Au(III)Cl4- 
+188,True,True,-3,-3,"{'Au': 2, 'Cl': 6}","{'Au': 2, 'Cl': 6}",Au(III)Cl4- + Au + 2 Cl- --> Au(II)Cl4^2- + Au(I)Cl2- 

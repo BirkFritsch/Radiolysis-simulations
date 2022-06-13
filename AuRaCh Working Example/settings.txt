@@ -1,0 +1,21 @@
+#Comment: Dose rate can be given with a unit:
+#"Gy/s" for Gray per second,
+#"e/A2s" for electrons per square angstroem second,
+#"e/nm2s" for electrons per square nm per second
+dose rate = 1e3 e/nm2s
+#Comment: liquid thickness must be given in meters
+liquid thickness = 1e-7
+#Comment: end of the simulation in seconds
+duration = 1e3
+
+
+##############advanced parameters##############
+#Comment: Liquid density in kg/dm3
+density = 1
+#Comment: mean free path of the solvent in meters
+mean free path = 3.8e-7
+#Comment: stopping power of the elctron beam in the solvent in MeV cm2/g
+stopping power = 2.36
+#Comment: relative and absolute tolerance of the solver
+rtol = 1e-5
+atol = 1e-40
