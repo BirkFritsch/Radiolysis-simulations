@@ -4,8 +4,8 @@ AuRaCh is a tool for automating the creation of coupled differential equation se
 
 Its working principle is described in:
 
-Fritsch _et al_., Radiolysis‐Driven Evolution of Gold Nanostructures –
-Model Verification by Scale Bridging _In Situ_ Liquid‐Phase Transmission Electron
+B. Fritsch, T.S. Zech, M.P Bruns, A. Körner, S. Khadivianazar, M. Wu, N.Z. Talebi, S. Virtanen, T. Unruh, M.P.M. Jank, E. Spiecker, A. Hutzler, Radiolysis‐Driven Evolution of Gold Nanostructures –
+Model Verification by Scale Bridging _in situ_ Liquid‐Phase Transmission Electron
 Microscopy and X‐Ray Diffraction, _Advanced Science_ 2022, 2202803. [DOI:10.1002/advs.202202803](https://doi.org/10.1002/advs.202202803)
 
 To run the code, please acknowledge the required dependencies.
