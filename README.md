@@ -9,7 +9,7 @@ Its working principle is described in:
 
 B. Fritsch, T.S. Zech, M.P. Bruns, A. Körner, S. Khadivianazar, M. Wu, N. Zargar Talebi, S. Virtanen, T. Unruh, M.P.M. Jank, E. Spiecker, A. Hutzler, Radiolysis‐Driven Evolution of Gold Nanostructures –
 Model Verification by Scale Bridging _in situ_ Liquid‐Phase Transmission Electron
-Microscopy and X‐Ray Diffraction, _Advanced Science_ 2022, 2202803. [DOI:10.1002/advs.202202803](https://doi.org/10.1002/advs.202202803)
+Microscopy and X‐Ray Diffraction, _Advanced Science_ 2022, 9, 2202803. [DOI:10.1002/advs.202202803](https://doi.org/10.1002/advs.202202803)
 
 The folder "working example" will perform a simulation of the HAuCl4 reaction set taken off this publication as exemplary usecase scenario.
 To run the code, please acknowledge the required dependencies.
