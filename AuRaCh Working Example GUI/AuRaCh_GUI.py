@@ -3,7 +3,7 @@ This is the supplementary code to the publication:
 
 Fritsch et al., Radiolysis‐Driven Evolution of Gold Nanostructures –
  Model Verification by Scale Bridging In Situ Liquid‐Phase Transmission Electron
- Microscopy and X‐Ray Diffraction, Advanced Science, 2022, DOI:10.1002/advs.202202803
+ Microscopy and X‐Ray Diffraction, Advanced Science, 2022, 9, 2202803, DOI:10.1002/advs.202202803
 
 If you find this tool helpful, please cite our work.
 
@@ -680,10 +680,14 @@ def read_settings(setting_file):
 
     elif flux_unit == 'e/A2s':
         dose_rate = e_flux_to_dose_rate(setting_dct['e Flux'],
-                                        setting_dct[liquid_thickness_key])
+                                        setting_dct[liquid_thickness_key],
+                                        stopping_power = setting_dct['stopping power'],
+                                        mean_free_path = setting_dct['mean free path'])
     elif flux_unit == 'e/nm2s':
         dose_rate = e_flux_to_dose_rate(setting_dct['e Flux'],
-                                        setting_dct[liquid_thickness_key])*100
+                                        setting_dct[liquid_thickness_key],
+                                        stopping_power = setting_dct['stopping power'],
+                                        mean_free_path = setting_dct['mean free path'])*100
     else:
         raise ValueError('Dose rate unit "{}" not recognized. It must be one of the following: {}'.format(flux_unit, ['Gy/s', 'e/A2s', 'e/nm2s']))                                        
     
@@ -1427,7 +1431,7 @@ class Window(QWidget):
         self.setLayout(layout)
         
         self.field15 = QtWidgets.QTextEdit()
-        self.field15.setPlainText("If you find this tool helpful please cite our work: <br/> <html><b>B. Fritsch <i>et al.</i>, Radiolysis-Driven Evolution of Gold Nanostructures – Model Verification by Scale Bridging <i>in situ</i> Liquid-Phase Transmission Electron Microscopy and X-Ray Diffraction, <i>Advanced Science</i>, 2022</b</html>")
+        self.field15.setPlainText("If you find this tool helpful please cite our work: <br/> <html><b>B. Fritsch <i>et al.</i>, Radiolysis-Driven Evolution of Gold Nanostructures – Model Verification by Scale Bridging <i>in situ</i> Liquid-Phase Transmission Electron Microscopy and X-Ray Diffraction, <i>Advanced Science</i>, 2022, 9 , 2202803</b</html>")
        
         #self.field15.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.field15.setReadOnly(True)
