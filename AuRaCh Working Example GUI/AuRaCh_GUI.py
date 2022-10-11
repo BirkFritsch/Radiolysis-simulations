@@ -1186,7 +1186,7 @@ def check_reactions(reaction_list):
             print(message)
             
         #Charge test, Element test, Educt charges, Product charges, Educt Elements, Product Elements, Reaction
-        doc[n].extend([educt_c,  product_c, product_e, product_e, reaction])
+        doc[n].extend([educt_c,  product_c, educt_e, product_e, reaction])
         
     return doc
 
@@ -1917,7 +1917,6 @@ class Worker(QObject):
         times, concentrations, setting_dct, reactants =  main_GUI(self.reactions,self.gvalues,self.values)
         self.result.emit(times, concentrations, setting_dct, reactants)
         self.finished.emit()
-
 
 
 
