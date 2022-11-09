@@ -4,3 +4,4 @@ numpy 1.19+
 pandas 1.1+
 matplotlib 3.3+
 pyqt 5.9.2+
+openpyxl 2.5.7+
