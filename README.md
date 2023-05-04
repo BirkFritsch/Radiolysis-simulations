@@ -18,4 +18,11 @@ Its default environment should be able to run all files uploaded here.
 
 I used Notepad++ to set up the reaction text file, so the spacing is adjusted to display properly using this software. https://notepad-plus-plus.org/ 
 
+The folder "AuRaCh reaction networks - Radiolytic Acidity" contains the reaction networks and initial concentrations/g-values file for the simulations performed in 
+
+B. Fritsch, A. Körner, T. Couasnon, R. Blukis, M. Taherkhani, L.G. Benning, M.P.M. Jank, E. Spiecker, A. Hutzler, Tailoring the Acidity of Liquid Media with Ionizing Radiation: Rethinking the Acid-Base Correlation Beyond pH, _The Journal of Physical Chemistry Letters_, 2023. [DOI:10.1021/acs.jpclett.3c00593](https://doi.org/10.1021/acs.jpclett.3c00593).
+
+Please use the AuRaCh code file or the GUI to run the simulations or contact me in case of further questions.
+
+
 Naturally, this code is still under ongoing development. I invite you to contribute :)
