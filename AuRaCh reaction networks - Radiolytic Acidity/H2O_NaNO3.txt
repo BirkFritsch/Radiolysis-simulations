@@ -1,0 +1,158 @@
+H2O 				--> H+ + OH- 				; 2.599e-5	; Kelm, Ref 1
+H+ + OH- 			--> H2O 					; 1.43e11	; Kelm, Ref 1
+H2O2 				--> H+ + HO2- 				; 111936.05692841689e-6	; Schneider 
+H+ + HO2- 			--> H2O2 					; 5e10		; Schneider
+H2O2 + OH- 			--> HO2- + H2O 				; 1.3e10	; Schneider 
+HO2- + H2O 			--> H2O2 + OH- 				; 58202729542927.09e-6	; Schneider 
+eh- + H2O 			--> H + OH- 				; 19		; Schneider
+H + OH- 			--> eh- + H2O 				; 2.2e7		; Schneider  
+H 					--> eh- + H+ 				; 3905960.4006620157e-6 ; Schneider
+eh- + H+ 			--> H 						; 2.3e10	; Schneider
+OH + OH- 			--> O- +  H2O 				; 1.3e10 	; Schneider
+O- + H2O 			--> OH + OH- 				; 103500715554251.39e-6 ; Schneider
+OH 					--> O- + H+ 				; 125892.54117941661e-6	; Schneider
+O- + H+ 			--> OH 						; 1e11		; Schneider
+HO2 				--> O2- + H+ 				; 1345767401963.457e-6	; Schneider
+O2- + H+ 			--> HO2 					; 5e10		; Schneider 
+HO2 + OH- 			--> O2- + H2O 				; 5e10 		; Schneider
+O2- + H2O 			--> HO2 + OH- 				; 18619585.312728416e-6 ; Schneider
+eh- + OH 			--> OH- 					; 3e10 		; Schneider
+eh- + H2O2 			--> OH + OH- 				; 1.1e10 	; Schneider
+eh- + O2- + H2O 	--> HO2- + OH- 				; 1.3e10	; Schneider  
+eh- + HO2 			--> HO2- 					; 2e10		; Schneider 
+eh- + O2 			--> O2- 					; 1.9e10	; Schneider 
+2 eh- + 2 H2O 		--> H2 + 2 OH- 				; 5.5e9  	; Schneider
+eh- + H + H2O 		--> H2 + OH- 				; 2.5e10	; Schneider  
+eh- + HO2-	 		--> O- + OH- 				; 3.5e9		; Schneider 
+eh- + O- + H2O 		--> OH- + OH- 				; 2.2e10	; Schneider  
+eh- + O3- + H2O 	--> O2 + OH- + OH- 			; 1.6e10	; Schneider  
+eh- + O3 			--> O3- 					; 3.6e10	; Schneider 
+H + H2O 			--> H2 + OH 				; 11		; Schneider
+H + O- 				--> OH- 					; 1e10		; Schneider 
+H + HO2- 			--> OH + OH- 				; 9e7		; Schneider 
+H + O3- 			--> OH- + O2 				; 1e10		; Schneider 
+2 H 				--> H2 						; 7.8e9		; Schneider 
+H + OH 				--> H2O 					; 7.0e9		; Schneider 
+H + H2O2 			--> OH + H2O 				; 9e7		; Schneider 
+H + O2 				--> HO2 					; 2.1e10	; Schneider 
+H + HO2 			--> H2O2 					; 1.8e10	; Schneider 
+H + O2- 			--> HO2- 					; 1.8e10	; Schneider 
+H + O3 				--> HO3 					; 3.8e10	; Schneider 
+2 OH 				--> H2O2 					; 3.6e9		; Schneider 
+OH + HO2 			--> H2O + O2 				; 6e9 		; Schneider 
+OH + O2- 			--> OH- + O2 				; 8.2e9		; Schneider 
+OH + H2 			--> H + H2O 				; 4.3e7		; Schneider 
+OH + H2O2 			--> HO2 + H2O 				; 2.7e7		; Schneider 
+OH + O- 			--> HO2- 					; 2.5e10	; Schneider 
+OH + HO2- 			--> HO2 + OH- 				; 7.5e9		; Schneider 
+OH + O3- 			--> O3 + OH- 				; 2.6e9		; Schneider 
+OH + O3- 			--> 2 O2- + H+ 				; 6e9		; Schneider 
+OH + O3 			--> HO2 + O2 				; 1.1e8		; Schneider 
+HO2 + O2- 			--> HO2- + O2 				; 8e7		; Schneider 
+HO2 + HO2 			--> H2O2 + O2 				; 7e5		; Schneider 
+HO2 + O- 			--> O2 + OH- 				; 6e9 		; Schneider
+HO2 + H2O2 			--> OH + O2 + H2O 			; 5e-1 		; Schneider
+HO2 + HO2- 			--> OH + O2 + OH- 			; 5e-1 		; Schneider
+HO2 + O3- 			--> O2 + O2 + OH- 			; 6e9		; Schneider 
+HO2 + O3 			--> HO3 + O2 				; 5e8		; Schneider
+2 O2- + 2 H2O 		--> H2O2 + O2 + 2 OH- 		; 1e2		; Schneider 
+O2- + O- + H2O 		--> O2 + 2 OH- 				; 6e8		; Schneider 
+O2- + H2O2 			--> OH + O2 + OH- 			; 1.3e-1	; Schneider 
+O2- + HO2- 			--> O- + O2 + OH- 			; 1.3e-1	; Schneider 
+O2- + O3- + H2O 	--> O2 + O2 + 2 OH- 		; 1e4		; Schneider  
+O2- + O3 			--> O3- + O2 				; 1.5e9		; Schneider 
+2 O- +  H2O 		--> HO2- + OH- 				; 1e9		; Schneider  
+O- + O2 			--> O3- 					; 3.6e9		; Schneider 
+O- + H2 			--> H + OH- 				; 8e7		; Schneider 
+O- + H2O2 			--> O2- + H2O 				; 5e8		; Schneider 
+O- + HO2-			--> O2- + OH- 				; 4e8		; Schneider 
+O- + O3- 			--> O2- + O2- 				; 7e8		; Schneider 
+O- + O3 			--> O2- + O2 				; 5e9		; Schneider 
+O3- 				--> O2 + O- 				; 3.3e3		; Schneider 
+O3- + H+ 			--> O2 + OH 				; 9e10 		; Schneider
+HO3 				--> O2 + OH 				; 1.1e5		; Schneider
+H2O2				--> H2O	+	O				; 1e-3		; Kelm, Ref 31 
+2 O					--> O2						; 1e9 		; Kelm, Ref 31 
+O3					--> O2 	+	O				; 3e-6		; Sehested et al 1992
+2 O3- + H2O			--> OH- + HO2- + 2 O2		; 1e4		; Levanov et al 2020
+2 HO3				--> H2O2 + 2 O2				; 5e9		; Levanov et al 2020
+O3 + OH-			--> HO2- + O2				; 1e2		; Levanov et al 2020
+O2	+	O			--> O3						; 4e9		; Klaning et al 1984 https://kinetics.nist.gov/solution/Detail?id=1984KLA/SEH2969-2979:2
+H2O2 +	O			--> OH	+	HO2				; 1.6e9		; Sauer et al 1984	https://kinetics.nist.gov/solution/Detail?id=1984SAU/BRO1398-1400:2
+O	+	HO2-		--> OH	+ O2-				; 5.3e9		; Sauer et al 1984 https://kinetics.nist.gov/solution/Detail?id=1984SAU/BRO1398-1400:3
+O	+	OH-			--> HO2-					; 4.2e8		; Sauer et al 1984 https://kinetics.nist.gov/solution/Detail?id=1984SAU/BRO1398-1400:1
+NO3- + eh- 			--> NO3^2- 					; 9.7e9     ; https://kinetics.nist.gov/solution/Detail?id=1988BUX/GRE513-886:46  
+NO3- + H 			--> HNO3- 					; 5.6e6     ; Horne et al 2016  
+NO3- + H+ 			--> HNO3 					; 6e8       ; Horne et al 2016      	
+HNO3 				--> H+ + NO3- 				; 1.46e10   ; Horne et al 2016
+HNO3 + OH 			--> NO3 + H2O 				; 1.9e7     ; Horne et al 2016                             	         
+NO3^2- + OH 		--> NO3- + OH- 				; 3e9       ; Horne et al 2016
+NO3^2- + H2O2 		--> NO3- + OH + OH- 		; 1.6e8		; Horne et al 2016
+NO3^2-	+ O2 		--> NO3- + O2- 				; 2.4e8		; Horne et al 2016
+NO3^2-	+ H2O 		--> NO2 + 2 OH- 			; 1e3		; Horne et al 2016
+HNO3- 				--> NO3^2-	+ H+ 			; 1.6e3		; Horne et al 2016
+NO2	+ eh- 			--> NO2- 					; 1e10 		; Horne et al 2016
+NO2	+ OH 			--> HOONO 					; 4.5e9		; Horne et al 2016
+NO2	+ HO2 			--> HOONO2 					; 1.8e9		; Horne et al 2016
+NO2 + H 			--> HNO2 					; 1e10		; Horne et al 2016
+NO2 + O2- 			--> O2NOO- 					; 4.5e9		; Horne et al 2016
+2 NO2 				--> N2O4 					; 4.5e9		; Horne et al 2016
+NO2 + NO3 			--> NO + NO2 + O2 			; 2.41e5	; Horne et al 2016
+NO2 + NO 			--> N2O3 					; 1.1e9		; Horne et al 2016
+NO2 + O- 			--> ONOO- 					; 3.5e9		; Horne et al 2016
+N2O4 				--> 2 NO2 					; 6e3		; Horne et al 2016
+N2O4 + H2O 			--> HNO2 + HNO3 			; 18		; Horne et al 2016
+HNO2 + OH 			--> NO2 + H2O 				; 2e9		; Horne et al 2016
+HNO2 				--> NO2- + H+ 				; 3e7		; Horne et al 2016
+2 HNO2 				--> NO2 + NO + H2O 			; 13.4		; Horne et al 2016
+HNO2 + eh- 			--> HNO2- 					; 4e9       ; Horne et al 2016
+HNO2 + H 			--> H2NO2 					; 3.88e8	; Mezyk et al 1997
+HNO2 + NO3 			--> NO2 + HNO3 				; 2e8		; Horne et al 2016
+HNO2 + HNO3 		--> 2 NO2 + H2O 			; 6.62e3	; Horne et al 2016
+NO2- + H+ 			--> HNO2 					; 5e10		; Horne et al 2016
+NO2- + OH 			--> NO2 + OH- 				; 1e10		; Horne et al 2016
+NO2- + H 			--> HNO2- 					; 1.64e9	; Mezyk et al 1997
+NO2- + O- + H2O 	--> NO2 + 2 OH- 			; 3.1e8		; Horne et al 2016
+NO2- + eh- 			--> NO2^2- 					; 4.1e9		; Horne et al 2016
+NO2- + NO3 			--> NO2 + NO3- 				; 4.4e9		; Horne et al 2016
+2 NO3 				--> 2 NO2 + O2 				; 1.3e5     ; H. McKenzie et al 2016
+NO3 + H2O2 			--> HNO3 + HO2 				; 7.1e6		; Horne et al 2016 
+NO3 + OH 			--> NO2 + HO2 				; 1e10		; Horne et al 2016
+NO3 + HO2 			--> HNO3 + O2 				; 3e9		; Horne et al 2016
+NO3 + H2O 			--> HNO3 + OH 				; 3e2		; Horne et al 2016
+NO3 + OH- 			--> NO3- + OH 				; 8.2e7		; Horne et al 2016
+HOONO 				--> NO3- + H+ 				; 0.9		; Horne et al 2016
+HOONO 				--> NO2 + OH 				; 0.35		; Horne et al 2016
+HOONO2 				--> NO2 + HO2 				; 0.026		; Horne et al 2016
+HOONO2 				--> HNO2 + O2 				; 7e-4		; Horne et al 2016
+HOONO + H2O 		--> HNO2 + H2O2 			; 3e2       ; Horne et al 2016	
+HOONO2 				--> O2NOO- + H+ 			; 7.1e4	    ; Horne et al 2016             
+HOONO2 + HNO2 		--> 2 HNO3 					; 12.0		; Horne et al 2016
+O2NOO- 				--> NO2- + O2 				; 1.35		; Horne et al 2016
+O2NOO- 				--> NO2 + O2- 				; 1.05		; Horne et al 2016
+O2NOO- + H+ 		--> HOONO2 					; 5e10		; Horne et al 2016           
+HNO2- 				--> NO + OH- 				; 5e3		; Horne et al 2016
+NO2^2- + H2O 		--> NO + 2 OH- 				; 1.6e6		; Horne et al 2016
+2 NO + O2 			--> 2 NO2 					; 5.9e6		; Horne et al 2016
+NO + OH 			--> NO2- + H+ 				; 1e10		; Horne et al 2016
+NO + HO2 			--> HOONO 					; 3.2e9		; Horne et al 2016
+NO + O2- 			--> ONOO- 					; 5e9		; Horne et al 2016
+ONOO- 				--> NO + O2- 				; 0.02		; Horne et al 2016
+HOONO + H+ 			--> HNO3 + H+ 				; 4.3		; Horne et al 2016
+ONOO- + OH 			--> NO + O2 + OH- 			; 4.8e9		; Horne et al 2016
+N2O3 				--> NO + NO2 				; 8.4e4		; Horne et al 2016
+ONOO- + N2O3 		--> 2 NO2 + NO2- 			; 3.1e8		; Horne et al 2016
+N2O3 + H2O 			--> 2 NO2- + 2 H+ 			; 2e3		; Horne et al 2016
+ONOO- + H+ 			--> HOONO 					; 5e10		; Horne et al 2016     
+ONOO- + NO2			--> NO2- + NO3 				; 2.4e4		; Horne et al 2016
+H2NO2 + O2- 		--> ONOO- + H2O 			; 2.3e7		; https://kinetics.nist.gov/solution/Detail?id=1993MIK/ERS235-238:0            	
+NO3^2- + H+ 		--> NO2 + OH- 				; 2e10      ; https://kinetics.nist.gov/solution/Detail?id=1987BEN/KRI1435-1439:3   
+HNO3- 				--> NO2 + OH- 				; 2e5       ; https://kinetics.nist.gov/solution/Detail?id=1993LOG/SEH6664-6669:2                   
+HNO2 + H 			--> H2O + NO 				; 4.5e8     ; https://kinetics.nist.gov/solution/Detail?id=1966HAL/RAB699-704:18    
+HNO2 + H2O2 		--> NO3- + H+ + H2O 		; 4.6e3     ; Lerich et al 2000, https://doi.org/10.1029/2002JD002950
+NO + NO2 + H2O 		--> 2 HNO2 					; 1.58e8    ; H. McKenzie et al.https://doi.org/10.1016/j.proche.2016.10.067
+2 NO2 + H2O 		--> HNO2 + HNO3 			; 4.8e7     ; H. McKenzie et al.https://doi.org/10.1016/j.proche.2016.10.067 
+HOONO 				--> ONOO- + H+ 				; 5e4       ; CAPRAM2.3
+NO2- + O3 			--> O2 + NO3- 				; 3.7e5	    ; https://kinetics.nist.gov/solution/Detail?id=1985HOI/BAD993-1004:27  
+Na+ + eh-	 		--> Na 						; 2e4		; Telser and Schindewolf https://pubs.acs.org/doi/pdf/10.1021/j100412a097
+Na + H2O 			--> H + Na+ + OH-			; 1.5e9		; Telser and Schindewolf https://pubs.acs.org/doi/pdf/10.1021/j100412a097

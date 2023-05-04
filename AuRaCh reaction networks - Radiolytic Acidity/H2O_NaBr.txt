@@ -1,0 +1,137 @@
+H2O 				--> H+ + OH- 				; 2.599e-5	; Kelm, Ref 1
+H+ + OH- 			--> H2O 					; 1.43e11	; Kelm, Ref 1
+H2O2 				--> H+ + HO2- 				; 111936.05692841689e-6	; Schneider 
+H+ + HO2- 			--> H2O2 					; 5e10		; Schneider
+H2O2 + OH- 			--> HO2- + H2O 				; 1.3e10	; Schneider 
+HO2- + H2O 			--> H2O2 + OH- 				; 58202729542927.09e-6	; Schneider 
+eh- + H2O 			--> H + OH- 				; 19		; Schneider
+H + OH- 			--> eh- + H2O 				; 2.2e7		; Schneider  
+H 					--> eh- + H+ 				; 3905960.4006620157e-6 ; Schneider
+eh- + H+ 			--> H 						; 2.3e10	; Schneider
+OH + OH- 			--> O- +  H2O 				; 1.3e10 	; Schneider
+O- + H2O 			--> OH + OH- 				; 103500715554251.39e-6 ; Schneider
+OH 					--> O- + H+ 				; 125892.54117941661e-6	; Schneider
+O- + H+ 			--> OH 						; 1e11		; Schneider
+HO2 				--> O2- + H+ 				; 1345767401963.457e-6	; Schneider
+O2- + H+ 			--> HO2 					; 5e10		; Schneider 
+HO2 + OH- 			--> O2- + H2O 				; 5e10 		; Schneider
+O2- + H2O 			--> HO2 + OH- 				; 18619585.312728416e-6 ; Schneider
+eh- + OH 			--> OH- 					; 3e10 		; Schneider
+eh- + H2O2 			--> OH + OH- 				; 1.1e10 	; Schneider
+eh- + O2- + H2O 	--> HO2- + OH- 				; 1.3e10	; Schneider  
+eh- + HO2 			--> HO2- 					; 2e10		; Schneider 
+eh- + O2 			--> O2- 					; 1.9e10	; Schneider 
+2 eh- + 2 H2O 		--> H2 + 2 OH- 				; 5.5e9  	; Schneider
+eh- + H + H2O 		--> H2 + OH- 				; 2.5e10	; Schneider  
+eh- + HO2-	 		--> O- + OH- 				; 3.5e9		; Schneider 
+eh- + O- + H2O 		--> OH- + OH- 				; 2.2e10	; Schneider  
+eh- + O3- + H2O 	--> O2 + OH- + OH- 			; 1.6e10	; Schneider  
+eh- + O3 			--> O3- 					; 3.6e10	; Schneider 
+H + H2O 			--> H2 + OH 				; 11		; Schneider
+H + O- 				--> OH- 					; 1e10		; Schneider 
+H + HO2- 			--> OH + OH- 				; 9e7		; Schneider 
+H + O3- 			--> OH- + O2 				; 1e10		; Schneider 
+2 H 				--> H2 						; 7.8e9		; Schneider 
+H + OH 				--> H2O 					; 7.0e9		; Schneider 
+H + H2O2 			--> OH + H2O 				; 9e7		; Schneider 
+H + O2 				--> HO2 					; 2.1e10	; Schneider 
+H + HO2 			--> H2O2 					; 1.8e10	; Schneider 
+H + O2- 			--> HO2- 					; 1.8e10	; Schneider 
+H + O3 				--> HO3 					; 3.8e10	; Schneider 
+2 OH 				--> H2O2 					; 3.6e9		; Schneider 
+OH + HO2 			--> H2O + O2 				; 6e9 		; Schneider 
+OH + O2- 			--> OH- + O2 				; 8.2e9		; Schneider 
+OH + H2 			--> H + H2O 				; 4.3e7		; Schneider 
+OH + H2O2 			--> HO2 + H2O 				; 2.7e7		; Schneider 
+OH + O- 			--> HO2- 					; 2.5e10	; Schneider 
+OH + HO2- 			--> HO2 + OH- 				; 7.5e9		; Schneider 
+OH + O3- 			--> O3 + OH- 				; 2.6e9		; Schneider 
+OH + O3- 			--> 2 O2- + H+ 				; 6e9		; Schneider 
+OH + O3 			--> HO2 + O2 				; 1.1e8		; Schneider 
+HO2 + O2- 			--> HO2- + O2 				; 8e7		; Schneider 
+HO2 + HO2 			--> H2O2 + O2 				; 7e5		; Schneider 
+HO2 + O- 			--> O2 + OH- 				; 6e9 		; Schneider
+HO2 + H2O2 			--> OH + O2 + H2O 			; 5e-1 		; Schneider
+HO2 + HO2- 			--> OH + O2 + OH- 			; 5e-1 		; Schneider
+HO2 + O3- 			--> O2 + O2 + OH- 			; 6e9		; Schneider 
+HO2 + O3 			--> HO3 + O2 				; 5e8		; Schneider
+2 O2- + 2 H2O 		--> H2O2 + O2 + 2 OH- 		; 1e2		; Schneider 
+O2- + O- + H2O 		--> O2 + 2 OH- 				; 6e8		; Schneider 
+O2- + H2O2 			--> OH + O2 + OH- 			; 1.3e-1	; Schneider 
+O2- + HO2- 			--> O- + O2 + OH- 			; 1.3e-1	; Schneider 
+O2- + O3- + H2O 	--> O2 + O2 + 2 OH- 		; 1e4		; Schneider  
+O2- + O3 			--> O3- + O2 				; 1.5e9		; Schneider 
+2 O- +  H2O 		--> HO2- + OH- 				; 1e9		; Schneider  
+O- + O2 			--> O3- 					; 3.6e9		; Schneider 
+O- + H2 			--> H + OH- 				; 8e7		; Schneider 
+O- + H2O2 			--> O2- + H2O 				; 5e8		; Schneider 
+O- + HO2-			--> O2- + OH- 				; 4e8		; Schneider 
+O- + O3- 			--> O2- + O2- 				; 7e8		; Schneider 
+O- + O3 			--> O2- + O2 				; 5e9		; Schneider 
+O3- 				--> O2 + O- 				; 3.3e3		; Schneider 
+O3- + H+ 			--> O2 + OH 				; 9e10 		; Schneider
+HO3 				--> O2 + OH 				; 1.1e5		; Schneider
+H2O2				--> H2O	+	O				; 1e-3		; Kelm, Ref 31 1e-3
+2 O					--> O2						; 1e9 		; Kelm, Ref 31 1e9
+O3					--> O2 	+	O				; 3e-6		; Sehested et al 1992
+2 O3- + H2O			--> OH- + HO2- + 2 O2		; 1e4		; Levanov et al 2020
+2 HO3				--> H2O2 + 2 O2				; 5e9		; Levanov et al 2020
+O3 + OH-			--> HO2- + O2				; 1e2		; Levanov et al 2020
+O2	+	O			--> O3						; 4e9		; Klaning et al 1984 https://kinetics.nist.gov/solution/Detail?id=1984KLA/SEH2969-2979:2
+H2O2 +	O			--> OH	+	HO2				; 1.6e9		; Sauer et al 1984	https://kinetics.nist.gov/solution/Detail?id=1984SAU/BRO1398-1400:2
+O	+	HO2-		--> OH	+ O2-				; 5.3e9		; Sauer et al 1984 https://kinetics.nist.gov/solution/Detail?id=1984SAU/BRO1398-1400:3
+O	+	OH-			--> HO2-					; 4.2e8		; Sauer et al 1984 https://kinetics.nist.gov/solution/Detail?id=1984SAU/BRO1398-1400:1
+Br- + OH 			--> BrOH- 					; 1.1e10    ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+BrOH- 				--> Br- + OH 				; 3.3e7     ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+BrOH- + H+ 			--> Br + H2O 				; 4.4e10    ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+BrOH- 				--> Br + OH- 				; 4.2e6     ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br + OH- 			--> BrOH- 					; 1.3e10    ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br + Br- 			--> Br2- 					; 1.2e10    ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br2- 				--> Br + Br- 				; 1.9e4     ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+2 Br2- 				--> Br3- + Br- 				; 2.4e9     ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br + Br2- 			--> Br3- 					; 5e9       ; El Omar et al 2013 https://doi.org/10.1021/jp312023r 
+Br2 + Br- 			--> Br3- 					; 1.6e8     ; El Omar et al 2013 https://doi.org/10.1021/jp312023r  
+Br3- 				--> Br2 + Br- 				; 1e7       ; El Omar et al 2013 https://doi.org/10.1021/jp312023r 
+2 Br 				--> Br2 					; 5e9       ; El Omar et al 2013 https://doi.org/10.1021/jp312023r  
+Br + eh- 			--> Br- 					; 1e10      ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br2- + eh- 			--> 2 Br- 					; 1.3e10    ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br3- + eh- 			--> Br2- + Br- 				; 2.7e10    ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+H + Br 				--> H+ + Br- 				; 1e10      ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br2- + H 			--> 2 Br- + H+ 				; 1.4e10    ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br3- + H 			--> Br2- + Br- + H+ 		; 1.2e10    ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br2- + HO2 			--> O2 + H+ + 2 Br- 		; 1e8       ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br3- + HO2 			--> Br2- + HBr + O2 		; 1e7       ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+BrOH- + Br- 		--> Br2- + OH- 				; 1.9e8     ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br2- + OH- 			--> BrOH- + Br- 			; 2.7e6     ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+Br- + H 			--> HBr- 					; 1.7e6     ; El Omar et al 2013 https://doi.org/10.1021/jp312023r
+HBr- + H+ 			--> H2 + Br 				; 1.1e10    ; El Omar et al 2013 https://doi.org/10.1021/jp312023r 
+H+ + Br- 			--> HBr 					; 1e4       ; https://acp.copernicus.org/articles/2/39/2002/acp-2-39-2002-supplement.pdf Lax, E., 1969, Taschenbuch fur Chemiker und Physiker, Springer Verlag, Berlin.
+HBr 				--> H+ + Br- 				; 1e13      ; https://acp.copernicus.org/articles/2/39/2002/acp-2-39-2002-supplement.pdf Lax, E., 1969, Taschenbuch fur Chemiker und Physiker, Springer Verlag, Berlin.
+2 Br2- 				--> Br2 + 2 Br- 			; 1.9e9     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+Br + Br2- 			--> Br2 + Br- 				; 2e9       ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684 
+Br2 + eh- 			--> Br2- 					; 5.3e10    ; https://kinetics.nist.gov/solution/Detail?id=1977SCH/GIL22-25:1
+Br2 + H 			--> Br2- + H+ 				; 1e10      ; https://kinetics.nist.gov/solution/Detail?id=1965SUT/ADA61-81B:3
+Br- + O3 			--> BrO- + O2 				; 160       ; https://kinetics.nist.gov/solution/Detail?id=1983HAA/HOI261-267:1
+Br + H2O 			--> BrOH- + H+ 				; 1.36      ; https://kinetics.nist.gov/solution/Detail?id=1985KLA/WOL243-245:1       
+Br + H2O2 			--> O2- + Br- + 2 H+		; 4e9       ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+Br + HO2 			--> H+ + O2 + Br- 			; 1e9       ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+Br2- + Br 			--> Br2 + Br- 				; 2e9       ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684  
+Br2- + H2O2			--> HO2 + 2 Br- + H+ 		; 5e2       ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684                 
+Br2- + O2- 			--> O2 + 2 Br- 				; 1.7e8     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+Br2 + HO2 			--> Br2- + O2 + H+ 			; 1.1e8     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+Br2 + O2- 			--> Br2- + O2 				; 5.6e9     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+Br2 + H2O2 			--> 2 HBr + O2 				; 1.3e3     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+Br2 + H2O 			--> HOBr + Br- + H+ 		; 97        ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+Br3- + O2- 			--> Br2- + Br- + O2 		; 3.8e9     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+BrO- + H+ 			--> HOBr 					; 1e10      ; https://acp.copernicus.org/articles/2/39/2002/acp-2-39-2002-supplement.pdf Kelley, C.M., and Tartar, H.V., 1959, On the system : bromine-water, 78, 5752-5756.
+HOBr 				--> H+ + BrO- 				; 23        ; https://acp.copernicus.org/articles/2/39/2002/acp-2-39-2002-supplement.pdf Kelley, C.M., and Tartar, H.V., 1959, On the system : bromine-water, 78, 5752-5756.
+Br2- + OH 			--> HOBr + Br- 				; 1e9       ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+HOBr + Br- + H+ 	--> Br2 + H2O 				; 5e9       ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+HOBr + HO2- 		--> Br- + H2O + O2 			; 7.6e8     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+HOBr + H2O2 		--> HBr + H2O + O2 			; 1.5e4     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+HOBr + O2- 			--> BrOH- + O2				; 3.5e9     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+BrO- + H2O2 		--> Br- + H2O + O2 			; 1.2e6     ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684  
+BrO- + O2- + H2O 	--> Br + 2 OH- + O2 		; 100       ; Yi Yang et al 2017 https://doi.org/10.3390/molecules22101684
+BrO- + eh- 			--> Br- + O- 				; 1.5e10    ; https://kinetics.nist.gov/solution/Detail?id=1968BUX/DAI427-439:12    
+Na+ + eh-	 		--> Na 						; 2e4		; Telser and Schindewolf https://pubs.acs.org/doi/pdf/10.1021/j100412a097
+Na + H2O			--> H + Na+ + OH-			; 1.5e9		; Telser and Schindewolf https://pubs.acs.org/doi/pdf/10.1021/j100412a0
