@@ -25,7 +25,7 @@ B. Fritsch, A. Körner, T. Couasnon, R. Blukis, M. Taherkhani, L.G. Benning, M.P
 To create subsets of reaction networks (sparse reaction sets), the script in the folder "Sparse Reaction Files" can be used. Alongside, you'll find three examples. Those, as well as the concept, are explained in 
 
 B. Fritsch, P. Malgareti, J. Harting, Karl J.J. Mayrhofer, A. Hutzler, Precision of Radiation Chemistry Networks: Playing Jenga with Kinetic Models for Liquid-Phase Electron Microscopy,
-_Precision Chemistry_, [DOI:10.1021/prechem.3c00078](https://doi.org/10.1021/prechem.3c00078)
+_Precision Chemistry_, [DOI:10.1021/prechem.3c00078](https://doi.org/10.1021/prechem.3c00078).
 
 
 Please use the AuRaCh code file or the GUI to run the simulations or contact me in case of further questions.
