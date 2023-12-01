@@ -1,0 +1,77 @@
+H2O 				--> H+ + OH- 				; 2.599e-5	; Kelm, Ref 1
+H+ + OH- 			--> H2O 					; 1.43e11	; Kelm, Ref 1
+H2O2 				--> H+ + HO2- 				; 111936.05692841689e-6	; Schneider 
+H+ + HO2- 			--> H2O2 					; 5e10		; Schneider
+H2O2 + OH- 			--> HO2- + H2O 				; 1.3e10	; Schneider 
+HO2- + H2O 			--> H2O2 + OH- 				; 58202729542927.09e-6	; Schneider 
+eh- + H2O 			--> H + OH- 				; 19		; Schneider
+H + OH- 			--> eh- + H2O 				; 2.2e7		; Schneider  
+H 					--> eh- + H+ 				; 3905960.4006620157e-6 ; Schneider
+eh- + H+ 			--> H 						; 2.3e10	; Schneider
+HO2 				--> O2- + H+ 				; 1345767401963.457e-6	; Schneider
+O2- + H+ 			--> HO2 					; 5e10		; Schneider 
+HO2 + OH- 			--> O2- + H2O 				; 5e10 		; Schneider
+O2- + H2O 			--> HO2 + OH- 				; 18619585.312728416e-6 ; Schneider
+eh- + OH 			--> OH- 					; 3e10 		; Schneider
+eh- + H2O2 			--> OH + OH- 				; 1.1e10 	; Schneider
+eh- + O2- + H2O 	--> HO2- + OH- 				; 1.3e10	; Schneider  
+eh- + HO2 			--> HO2- 					; 2e10		; Schneider 
+eh- + O2 			--> O2- 					; 1.9e10	; Schneider 
+2 eh- + 2 H2O 		--> H2 + 2 OH- 				; 5.5e9  	; Schneider
+eh- + H + H2O 		--> H2 + OH- 				; 2.5e10	; Schneider  
+H + H2O 			--> H2 + OH 				; 11		; Schneider
+H + HO2- 			--> OH + OH- 				; 9e7		; Schneider 
+2 H 				--> H2 						; 7.8e9		; Schneider 
+H + OH 				--> H2O 					; 7.0e9		; Schneider 
+H + H2O2 			--> OH + H2O 				; 9e7		; Schneider 
+H + O2 				--> HO2 					; 2.1e10	; Schneider 
+H + HO2 			--> H2O2 					; 1.8e10	; Schneider 
+H + O2- 			--> HO2- 					; 1.8e10	; Schneider 
+2 OH 				--> H2O2 					; 3.6e9		; Schneider 
+OH + HO2 			--> H2O + O2 				; 6e9 		; Schneider 
+OH + O2- 			--> OH- + O2 				; 8.2e9		; Schneider 
+OH + H2 			--> H + H2O 				; 4.3e7		; Schneider 
+OH + H2O2 			--> HO2 + H2O 				; 2.7e7		; Schneider 
+OH + HO2- 			--> HO2 + OH- 				; 7.5e9		; Schneider 
+HO2 + O2- 			--> HO2- + O2 				; 8e7		; Schneider 
+HO2 + HO2 			--> H2O2 + O2 				; 7e5		; Schneider 
+HO2 + H2O2 			--> OH + O2 + H2O 			; 5e-1 		; Schneider
+HO2 + HO2- 			--> OH + O2 + OH- 			; 5e-1 		; Schneider
+2 O2- + 2 H2O 		--> H2O2 + O2 + 2 OH- 		; 1e2		; Schneider 
+O2- + H2O2 			--> OH + O2 + OH- 			; 1.3e-1	; Schneider 
+OH	+	Cl-			--> ClOH-					; 4.3e9		; Kelm, Ref 1 ##############FIRST CLORIDE#####################
+eh-	+	Cl			--> Cl-						; 1e10		; Kelm, Ref 1, water substracted (was added to product site)
+eh-	+	Cl2-		--> 2 Cl-					; 1e10		; Kelm, Ref 1, water substracted (was added to product site)
+eh-	+	ClOH-		--> Cl-	+	OH-				; 1e10		; Kelm, Ref 1, water substracted (was added to product site)
+H	+	Cl			--> Cl-	+	H+				; 1e10		; Kelm, Ref 1
+H	+	Cl2-		--> 2 Cl- + H+				; 8e9		; Kelm, Ref 1
+H	+	ClOH-		-->	Cl- +	H2O				; 1e10		; Kelm, Ref 1
+HO2	+	Cl2-		--> Cl-	+	HCl	+	O2		; 4e9		; Kelm, Ref 1
+HCl					--> Cl-	+	H+				; 5e5		; Kelm, Ref 1
+Cl- + H+			--> HCl						; 0.629		; Calculated based on Kelm and Trummal et al 2016 (pKa(HCl)=-5.9)
+O2- +	Cl2-		--> 2 Cl- +	O2				; 1.2e10	; Kelm, Ref 1
+H2O2 + 	Cl2-		--> 2 HCl + O2-				; 1.4e5		; Kelm, Ref 1
+OH-	+	Cl2-		--> ClOH- +	Cl-				; 7.3e6		; Kelm, Ref 1
+H+	+	ClOH-		--> Cl	+	H2O				; 2.1e10	; Kelm, Ref 1
+Cl-	+ 	Cl			--> Cl2-					; 2.1e10	; Kelm, Ref 1
+Cl- + 	ClOH-		--> Cl2-	+	OH-			; 9e4		; Kelm, Ref 1
+ClOH-				--> OH	+	Cl-				; 6.1e9		; Kelm, Ref 1
+Cl2-				--> Cl + Cl-				; 1.1e5		; Kelm, Ref 1
+Cl2-	+ H2		--> H + HCl	+ Cl-			; 4.3e5		; Kelm
+Cl + H2O2			--> Cl- + H+ + HO2			; 2e9		; Levanov et al 2020
+Cl + HO2			--> Cl- + H+ + O2			; 3.1e9		; Levanov et al 2020
+Cl + OH-			--> ClOH-					; 1.8e10	; Levanov et al 2020
+ClOH- 				--> Cl + OH-				; 23		; Levanov et al 2020
+Cl + H2O			--> ClOH- + H+				; 1.8e5		; Levanov et al 2020
+Au(I)Cl2- + 2 Cl- + OH 	--> Au(II)Cl4^2- + OH- 		; 2.6e9 	; Buxton (1977) for AuCN2 complexes and pH 7, 2.6e9 at pH 2
+Au(III)Cl4- + H 		--> Au(II)Cl4^2- + H+ 		; 5.7e9 	; Buxton (1977) for AuCl4 complexes and pH 4 Cl Part from Gachard et al (1998)
+Au(III)Cl4- + eh- 		--> Au(II)Cl4^2- 			; 5.7e9 	; Buxton (1977) for AuCl4 complexes and pH 4 Cl Part from Gachard et al (1998)
+2 Au(II)Cl4^2-	 		--> Au2Cl6^2- + 2 Cl- 		; 1.45e8 	; Dey et al (2011), Cl Part from Gachard et al (1998) 
+Au(I)Cl2- + eh- 		--> Au + 2 Cl-				; 8e9 		; Ambrozic et al 2019 Cl assumed 
+Au(I)Cl2- + H 			--> Au + H+ + 2 Cl- 		; 8e9 		; Ambrozic et al 2019 Cl assumed
+Au(I)Cl2- + HO2- 		--> Au + HO2 + 2 Cl-		; 1.89 		; Ambrozic et al 2019 Cl assumed
+Au(I)Cl2- + H2 			--> Au + H+ + H + 2 Cl- 	; 7.4e-3 	; Ambrozic et al 2019 (assumed)
+Au(I)Cl2- + O2- 		--> Au + O2 + 2 Cl-			; 1.89 		; Ambrozic et al 2019 
+Au + ClOH- + Cl- 		--> Au(I)Cl2- + OH- 		; 1.83e9 	; assumed based on Ambrozic et al 2019
+Au2Cl6^2- 				--> Au(I)Cl2- + Au(III)Cl4- ; 1e2 		; Dey et al (2011)
+Au(III)Cl4- + Au + 2 Cl- --> Au(II)Cl4^2- + Au(I)Cl2- ; 0 	; Proposed by Dey et al., reaction rate unknown
