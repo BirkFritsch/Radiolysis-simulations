@@ -19,7 +19,7 @@ Naturally, this code is still under ongoing development. I invite you to contrib
 
 ## Folder description
 
-The folder "working example" provides code to perform a simulation of the HAuCl<sub>4</sub> reaction set taken off the original AuRaCh publication as exemplary usecase scenario.
+The folder "working example" provides code to perform a simulation of the HAuCl<sub>4</sub> reaction set taken off [the original AuRaCh publication](https://doi.org/10.1002/advs.202202803) as exemplary usecase scenario.
 To run the code, please acknowledge the required dependencies.
 Its default environment should be able to run all files uploaded here.
 
