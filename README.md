@@ -7,7 +7,7 @@ Consequently, AuRaCh can be employed for non-irradiated  chemical reaction kinet
 
 Its working principle is described in:
 
-B. Fritsch, T.S. Zech, M.P. Bruns, A. Körner, S. Khadivianazar, M. Wu, N. Zargar Talebi, S. Virtanen, T. Unruh, M.P.M. Jank, E. Spiecker, A. Hutzler, Radiolysis‐Driven Evolution of Gold Nanostructures –
+  B. Fritsch, T.S. Zech, M.P. Bruns, A. Körner, S. Khadivianazar, M. Wu, N. Zargar Talebi, S. Virtanen, T. Unruh, M.P.M. Jank, E. Spiecker, A. Hutzler, Radiolysis‐Driven Evolution of Gold Nanostructures –
 Model Verification by Scale Bridging _in situ_ Liquid‐Phase Transmission Electron
 Microscopy and X‐Ray Diffraction, _Advanced Science_ 2022, 9 (25), 2202803. [DOI:10.1002/advs.202202803](https://doi.org/10.1002/advs.202202803).
 
@@ -26,7 +26,7 @@ Its default environment should be able to run all files uploaded here.
 
 "AuRaCh reaction networks - Radiolytic Acidity" contains the reaction networks and initial concentrations/g-values file for the simulations performed in 
 
-B. Fritsch, A. Körner, T. Couasnon, R. Blukis, M. Taherkhani, L.G. Benning, M.P.M. Jank, E. Spiecker, A. Hutzler, Tailoring the Acidity of Liquid Media with Ionizing Radiation: Rethinking the Acid-Base Correlation Beyond pH, _The Journal of Physical Chemistry Letters_, 2023, 14 (20), 4644–4651. [DOI:10.1021/acs.jpclett.3c00593](https://doi.org/10.1021/acs.jpclett.3c00593).
+B. Fritsch, A. Körner, T. Couasnon, R. Blukis, M. Taherkhani, L.G. Benning, M.P.M. Jank, E. Spiecker, A. Hutzler, Tailoring the Acidity of Liquid Media with Ionizing Radiation: Rethinking the Acid-Base Correlation Beyond pH, _The Journal of Physical Chemistry Letters_ 2023, 14 (20), 4644–4651. [DOI:10.1021/acs.jpclett.3c00593](https://doi.org/10.1021/acs.jpclett.3c00593).
 
 A reaction file for simulating an aqueous solution containing Fe(II)/Fe(III) can be found in "AuRaCh reaction network - Fe". It is introduced in
 
@@ -35,7 +35,10 @@ T. Couasnon, B. Fritsch, M.P.M. Jank, R. Blukis, A. Hutzler, L. Benning, Goethit
 To create subsets of reaction networks (sparse reaction sets), the script in the folder "Sparse Reaction Files" can be used. Alongside, you'll find three examples. Those, as well as the concept, are explained in 
 
 B. Fritsch, P. Malgareti, J. Harting, Karl J.J. Mayrhofer, A. Hutzler, Precision of Radiation Chemistry Networks: Playing Jenga with Kinetic Models for Liquid-Phase Electron Microscopy,
-_Precision Chemistry_, [DOI:10.1021/prechem.3c00078](https://doi.org/10.1021/prechem.3c00078).
+_Precision Chemistry_ 2023, 1 (10), 592-601. [DOI:10.1021/prechem.3c00078](https://doi.org/10.1021/prechem.3c00078).
 
+Reaction files for simulating aqueous AgNO<sub>3</sub> solutions with and without tert-butanol are found in "AuRach reaction networks AgNO3". When using them, please cite
+
+J. Sun, B. Fritsch, A. Körner, M. Taherkhani, C. Park, M. Wang, A. Hutzler and T. Woehl, Discovery of molecular intermediates and non-classical nanoparticle formation mechanisms by liquid phase electron microscopy and reaction throughput analysis, _ChemRxiv_ 2024, Preprint. [DOI:10.26434/chemrxiv-2024-r636h](https://doi.org/10.26434/chemrxiv-2024-r636h)
 
 Please use the AuRaCh code file or the GUI to run the simulations or contact me in case of further questions.
