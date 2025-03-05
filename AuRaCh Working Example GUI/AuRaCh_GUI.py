@@ -74,7 +74,9 @@ matplotlib.use('Qt5Agg')
 
 
 
-def e_flux_to_dose_rate(flux, thickness, stopping_power = 2.36, mean_free_path=3.8e-7,t=1):
+def e_flux_to_dose_rate_angstrom(
+    flux, thickness, stopping_power=2.36, mean_free_path=3.8e-7, t=1
+):
     """
     INPUT:
     
@@ -91,6 +93,48 @@ def e_flux_to_dose_rate(flux, thickness, stopping_power = 2.36, mean_free_path=3
     dose_rate = 1e5 * e* (stopping_power/(1e-20*t)) * flux * (1 + thickness/mean_free_path)
     
     return dose_rate
+
+
+def e_flux_to_dose_rate_nm(flux, thickness, stopping_power = 2.36, mean_free_path=3.8e-7,t=1):
+    """
+    INPUT:
+    
+    flux (float or array-like) in e/(nm²s)
+    Thickness (float or array-like) in m
+    Mean free path (float or array-like) in m
+    stopping_power (float or array-like) in MeV(cm)²/g
+    
+    RETURN:
+    
+    dose rate (float or array-like) in Gy/s 
+    """
+
+    dose_rate = 1e5 * e* (stopping_power/(1e-18*t)) * flux * (1 + thickness/mean_free_path)
+    
+    return dose_rate
+
+
+
+def e_flux_to_dose_rate(flux, thickness, stopping_power = 2.36, mean_free_path=3.8e-7,t=1):
+    """
+    Wrapper around e_flux_to_dose_rate_angstrom. Deprecated.
+    Use  e_flux_to_dose_rate_angstrom or e_flux_to_dose_rate_nm instead.
+    
+    INPUT:
+    
+
+    flux (float or array-like) in e/(Angstroem2s)
+    Thickness (float or array-like) in m
+    Mean free path (float or array-like) in m
+    stopping_power (float or array-like) in MeV(cm)2/g
+    
+    RETURN:
+    
+    dose rate (float or array-like) in Gy/s 
+    """
+
+    
+    return e_flux_to_dose_rate_angstrom(flux, thickness, stopping_power, mean_free_path, t)
 
 
 
@@ -679,15 +723,15 @@ def read_settings(setting_file):
         dose_rate = setting_dct['e Flux']
 
     elif flux_unit == 'e/A2s':
-        dose_rate = e_flux_to_dose_rate(setting_dct['e Flux'],
+        dose_rate = e_flux_to_dose_rate_anstrom(setting_dct['e Flux'],
                                         setting_dct[liquid_thickness_key],
                                         stopping_power = setting_dct['stopping power'],
                                         mean_free_path = setting_dct['mean free path'])
     elif flux_unit == 'e/nm2s':
-        dose_rate = e_flux_to_dose_rate(setting_dct['e Flux'],
+        dose_rate = e_flux_to_dose_rate_nm(setting_dct['e Flux'],
                                         setting_dct[liquid_thickness_key],
                                         stopping_power = setting_dct['stopping power'],
-                                        mean_free_path = setting_dct['mean free path'])*100
+                                        mean_free_path = setting_dct['mean free path'])
     else:
         raise ValueError('Dose rate unit "{}" not recognized. It must be one of the following: {}'.format(flux_unit, ['Gy/s', 'e/A2s', 'e/nm2s']))                                        
     
@@ -836,11 +880,11 @@ def main_GUI(reaction_set, init_concentrations, setting_dct):
         dose_rate = setting_dct['e Flux']
 
     elif setting_dct['Flux unit'] == 'e/A2s':
-        dose_rate = e_flux_to_dose_rate(setting_dct['e Flux'],
+        dose_rate = e_flux_to_dose_rate_angstrom(setting_dct['e Flux'],
                                         setting_dct['liquid thickness'])
     elif setting_dct['Flux unit'] == 'e/nm2s':
-        dose_rate = e_flux_to_dose_rate(setting_dct['e Flux'],
-                                        setting_dct['liquid thickness'])*100
+        dose_rate = e_flux_to_dose_rate_nm(setting_dct['e Flux'],
+                                        setting_dct['liquid thickness'])
     setting_dct['dose rate'] = dose_rate
     
     
