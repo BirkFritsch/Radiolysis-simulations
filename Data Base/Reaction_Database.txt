@@ -1,0 +1,390 @@
+H2O 				--> H+ + OH- 				; 2.599e-5	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H+ + OH- 			--> H2O 					; 1.43e11	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H2O2 				--> H+ + HO2- 				; 0.11193605692841689 ; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H+ + HO2- 			--> H2O2 					; 5e10		; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+H2O2 + OH- 			--> HO2- + H2O 				; 1.3e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+HO2- + H2O 			--> H2O2 + OH- 				; 58202729.542927094	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh- + H2O 			--> H + OH- 				; 19		; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+H + OH- 			--> eh- + H2O 				; 2.2e7		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+H 					--> eh- + H+ 				; 3.905960400662016 ; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh- + H+ 			--> H 						; 2.3e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+OH + OH- 			--> O- +  H2O 				; 1.3e10 	; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+O- + H2O 			--> OH + OH- 				; 103500715.55425139 ; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+OH 					--> O- + H+ 				; 0.12589254117941662	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O- + H+ 			--> OH 						; 1e11		; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+HO2 				--> O2- + H+ 				; 1345767.401963457	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O2- + H+ 			--> HO2 					; 5e10		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+HO2 + OH- 			--> O2- + H2O 				; 5e10 		; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+O2- + H2O 			--> HO2 + OH- 				; 18.619585312728415 ; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh- + OH 			--> OH- 					; 3e10 		; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+eh- + H2O2 			--> OH + OH- 				; 1.1e10 	; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+eh- + O2- + H2O 	--> HO2- + OH- 				; 1.3e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+eh- + HO2 			--> HO2- 					; 2e10		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+eh- + O2 			--> O2- 					; 1.9e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+2 eh- + 2 H2O 		--> H2 + 2 OH- 				; 5.5e9  	; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+eh- + H + H2O 		--> H2 + OH- 				; 2.5e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+eh- + HO2-	 		--> O- + OH- 				; 3.5e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+eh- + O- + H2O 		--> OH- + OH- 				; 2.2e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+eh- + O3- + H2O 	--> O2 + OH- + OH- 			; 1.6e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+eh- + O3 			--> O3- 					; 3.6e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+H + H2O 			--> H2 + OH 				; 11		; Schneider et al 2014 https://doi.org/10.1021/jp507400n
+H + O- 				--> OH- 					; 1e10		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+H + HO2- 			--> OH + OH- 				; 9e7		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+H + O3- 			--> OH- + O2 				; 1e10		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+2 H 				--> H2 						; 7.8e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+H + OH 				--> H2O 					; 7.0e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+H + H2O2 			--> OH + H2O 				; 9e7		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+H + O2 				--> HO2 					; 2.1e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+H + HO2 			--> H2O2 					; 1.8e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+H + O2- 			--> HO2- 					; 1.8e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+H + O3 				--> HO3 					; 3.8e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+2 OH 				--> H2O2 					; 3.6e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+OH + HO2 			--> H2O + O2 				; 6e9 		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+OH + O2- 			--> OH- + O2 				; 8.2e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+OH + H2 			--> H + H2O 				; 4.3e7		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+OH + H2O2 			--> HO2 + H2O 				; 2.7e7		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+OH + O- 			--> HO2- 					; 2.5e10	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+OH + HO2- 			--> HO2 + OH- 				; 7.5e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+OH + O3- 			--> O3 + OH- 				; 2.55e9	; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+OH + O3- 			--> 2 O2- + H+ 				; 5.95e9	; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+OH + O3 			--> HO2 + O2 				; 1.1e8		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+HO2 + O2- 			--> HO2- + O2 				; 8e7		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+HO2 + HO2 			--> H2O2 + O2 				; 7e5		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+HO2 + O- 			--> O2 + OH- 				; 6e9 		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+HO2 + H2O2 			--> OH + O2 + H2O 			; 5e-1 		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+HO2 + HO2- 			--> OH + O2 + OH- 			; 5e-1 		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+HO2 + O3- 			--> O2 + O2 + OH- 			; 6e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+HO2 + O3 			--> HO3 + O2 				; 5e8		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+2 O2- + 2 H2O 		--> H2O2 + O2 + 2 OH- 		; 1e2		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O2- + O- + H2O 		--> O2 + 2 OH- 				; 6e8		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O2- + H2O2 			--> OH + O2 + OH- 			; 1.3e-1	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O2- + HO2- 			--> O- + O2 + OH- 			; 1.3e-1	; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O2- + O3- + H2O 	--> O2 + O2 + 2 OH- 		; 1e4		; Schneider et al 2014 https://doi.org/10.1021/jp507400n   
+O2- + O3 			--> O3- + O2 				; 1.5e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+2 O- +  H2O 		--> HO2- + OH- 				; 1e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n   
+O- + O2 			--> O3- 					; 3.6e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O- + H2 			--> H + OH- 				; 8e7		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O- + H2O2 			--> O2- + H2O 				; 5e8		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O- + HO2-			--> O2- + OH- 				; 4e8		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O- + O3- 			--> O2- + O2- 				; 7e8		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O- + O3 			--> O2- + O2 				; 5e9		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O3- 				--> O2 + O- 				; 3.3e3		; Schneider et al 2014 https://doi.org/10.1021/jp507400n  
+O3- + H+ 			--> O2 + OH 				; 9e10 		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+HO3 				--> O2 + OH 				; 1.1e5		; Schneider et al 2014 https://doi.org/10.1021/jp507400n 
+H2O2				--> H2O	+	O				; 1e-3		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O3					--> O2 	+	O				; 3e-6		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 O3- + H2O			--> OH- + HO2- + 2 O2		; 1e4		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 HO3				--> H2O2 + 2 O2				; 5e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O3 + OH-			--> HO2- + O2				; 1e2		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O2	+	O			--> O3						; 4e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H2O2 +	O			--> OH	+	HO2				; 1.6e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O	+	HO2-		--> OH	+ O2-				; 5.3e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O	+	OH-			--> HO2-					; 4.2e8		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 O					--> O2						; 2.2e10 	; Fritsch, Malgaretti et al 2023 https://doi.org/10.1021/prechem.3c00078
+O	+	OH			--> HO2						; 2e10		; Fritsch, Malgaretti et al 2023 https://doi.org/10.1021/prechem.3c00078
+O	+ 	HO2			-->	OH + O2					; 2e10		; Fritsch, Malgaretti et al 2023 https://doi.org/10.1021/prechem.3c00078
+O	+	H 			--> OH						; 2e10		; Fritsch, Malgaretti et al 2023 https://doi.org/10.1021/prechem.3c00078
+NO3- + eh- 			--> NO3^2- 					; 9.7e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO3- + H 			--> HNO3- 					; 5.6e6     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+NO3- + H+ 			--> HNO3 					; 6e8       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593     	
+HNO3 				--> H+ + NO3- 				; 1.46e10   ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO3 + OH 			--> NO3 + H2O 				; 1.9e7  	; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO3^2- + OH 		--> NO3- + OH- 				; 3e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO3^2- + H2O2 		--> NO3- + OH + OH- 		; 1.6e8		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO3^2- + O2 		--> NO3- + O2- 				; 2.4e8	    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO3^2- + H2O 		--> NO2 + 2 OH- 			; 1e3       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO3- 				--> NO3^2- + H+ 			; 1.6e3     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2	+ eh- 			--> NO2- 					; 1e10      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2	+ OH 			--> HOONO 					; 4.5e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2	+ HO2 			--> HNO4 					; 1.8e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2 + H 			--> HNO2 					; 1e10		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2 + O2- 			--> NO4- 					; 4.5e9		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+2 NO2 				--> N2O4 					; 4.5e9	    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2 + NO3 			--> NO + NO2 + O2 			; 2.41e5    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2 + NO 			--> N2O3 					; 1.1e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2 + O- 			--> ONOO- 					; 3.5e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+N2O4 				--> 2 NO2 					; 6e3       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+N2O4 + H2O 			--> HNO2 + HNO3 			; 18        ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO2 + OH 			--> NO2 + H2O 				; 2e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO2 				--> NO2- + H+ 				; 3e7       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+2 HNO2 				--> NO2 + NO + H2O 			; 13.4		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO2 + eh- 			--> HNO2- 					; 4e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO2 + H 			--> H2NO2 					; 3.88e8	; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO2 + NO3 			--> NO2 + HNO3 				; 2e8       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO2 + HNO3 		--> 2 NO2 + H2O 			; 6.62e3    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2- + H+ 			--> HNO2 					; 5e10      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2- + OH 			--> NO2 + OH- 				; 1e10		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2- + H 			--> HNO2- 					; 1.64e9	; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2- + O- + H2O 	--> NO2 + 2 OH- 			; 3.1e8		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2- + eh- 			--> NO2^2- 					; 4.1e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2- + NO3 			--> NO2 + NO3- 				; 4.4e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+2 NO3 				--> 2 NO2 + O2 				; 1.3e5     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO3 + H2O2 			--> HNO3 + HO2 				; 7.1e6		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593 
+NO3 + OH 			--> NO2 + HO2 				; 1e10      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO3 + HO2 			--> HNO3 + O2 				; 3e9		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO3 + H2O 			--> HNO3 + OH 				; 3e2       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO3 + OH- 			--> NO3- + OH 				; 8.2e7     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HOONO 				--> NO3- + H+ 				; 0.9		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HOONO 				--> NO2 + OH 				; 0.35		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO4 				--> NO2 + HO2 				; 0.026		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO4 				--> HNO2 + O2 				; 7e-4		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HOONO + H2O 		--> HNO2 + H2O2 			; 3e2       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO4 				--> NO4- + H+ 				; 7.1e4	    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO4 + HNO2 		--> 2 HNO3 					; 12.0		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO4- 				--> NO2- + O2 				; 1.35		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO4- 				--> NO2 + O2- 				; 1.05		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO4- + H+ 			--> HNO4 					; 5e10		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593             
+HNO2- 				--> NO + OH- 				; 5e3		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2^2- + H2O 		--> NO + 2 OH- 				; 1.6e6		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+2 NO + O2 			--> 2 NO2 					; 5.9e6		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO + OH 			--> NO2- + H+ 				; 1e10		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO + HO2 			--> HOONO 					; 3.2e9		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO + O2- 			--> ONOO- 					; 5e9		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+ONOO- 				--> NO + O2- 				; 0.02		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HOONO + H+ 			--> HNO3 + H+ 				; 4.3		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+ONOO- + OH 			--> NO + O2 + OH- 			; 4.8e9		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+N2O3 				--> NO + NO2 				; 8.4e4		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+ONOO- + N2O3 		--> 2 NO2 + NO2- 			; 3.1e8		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+N2O3 + H2O 			--> 2 NO2- + 2 H+ 			; 2e3		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+ONOO- + H+ 			--> HOONO 					; 5e10		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+ONOO- + NO2			--> NO2- + NO3 				; 2.4e4		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+H2NO2 + O2- 		--> ONOO- + H2O 			; 2.3e7		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593         	
+NO3^2- + H+ 		--> NO2 + OH- 				; 2e10      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO3- 				--> NO2 + OH- 				; 2e5       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593              
+HNO2 + H 			--> H2O + NO 				; 4.5e8     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HNO2 + H2O2 		--> NO3- + H+ + H2O 		; 4.6e3     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO + NO2 + H2O 		--> 2 HNO2 					; 1.58e8    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+2 NO2 + H2O 		--> HNO2 + HNO3 			; 4.8e7     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+HOONO 				--> ONOO- + H+ 				; 5e4       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593
+NO2- + O3 			--> O2 + NO3- 				; 3.7e5	    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Ag+ + H 			--> AgH+ 					; 1.5e10    ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+AgH+ 				--> Ag + H+ 				; 2e7       ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag+ + eh- 			--> Ag 						; 4.8e10    ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag+ + OH 			--> AgOH+ 					; 9.7e9     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+AgOH+ + H+  		--> Ag^2+ + H2O 			; 8.9e9     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+AgOH+				--> Ag^2+ + OH-				; 8.9e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag^2+ + H2O			--> AgOH+ + H+				; 26265.762117330818 ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+2 Ag^2+				--> Ag^3+ + Ag+				; 7.5e8		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag^3+ + eh-			--> Ag^2+					; 4.8e10 	; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag^3+ + H			--> Ag^2+ + H+				; 4.8e10 	; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag^2+ + eh-			--> Ag+						; 4.8e10 	; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag^2+ + H			--> Ag+ + H+				; 4.8e10 	; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+2 Ag^2+ + H2O 		--> AgO+ + Ag+ + 2 H+ 		; 2.9e3     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+AgO+ + H2O 			--> Ag+ + H2O2 				; 7.1e5     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag^2+ + H2O2 		--> Ag+ + H+ + HO2 			; 4.5e7     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag^2+ + HO2 		--> Ag+ + H+ + O2 			; 1.7e8     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag + Ag+ 			--> Ag2^+  					; 5.9e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146                                                                                          ?                       
+Ag+ + O2- 			--> Ag + O2 				; 64        ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag + O2- 			--> Ag- + O2 				; 1e10 	    ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag- + O2 			--> Ag + O2- 				; 2e9	    ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag+ + Ag- 			--> Ag2 					; 6e5       ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146                                                     -
+Ag+ + O3 			--> AgO+ + O2 				; 3.5e-2    ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag^2+ + O3 + H2O 	--> Ag+ + O2 + HO2 + H+ 	; 5.5e2     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+AgO+ + Ag+ + 2 H+ 	--> 2 Ag^2+ + H2O 			; 7.1e7     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146      
+2 Ag	 			--> Ag2 					; 1.6e10 	; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+2 Ag2 				--> Ag4						; 5e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+2 Ag2^+				--> Ag4^2+					; 1.3e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag2^+ + eh-			--> Ag2						; 4.8e10	; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag4^2+ + 2 eh-		--> Ag4						; 4.8e10	; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag2 + O2 			--> Ag+ + Ag + O2-			; 5e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag4	+ O2			--> Ag2^+ + Ag2 + O2-		; 5e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag4^2+ + O2			--> 3 Ag+ + Ag + O2-		; 5e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag + O2 			--> Ag+ + O2- 				; 5e9       ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag+ + NO3 			--> Ag^2+ + NO3- 			; 2.5e9     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag2^+ + NO3			--> 2 Ag+ + NO3-			; 2.5e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag4^2+ + NO3		--> Ag2^+ + 2 Ag+ + NO3-	; 2.5e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+Ag2^+ + O2			--> 2 Ag+ + O2-				; 3.8e9 	; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+HROH	+ OH		--> ROH + H2O				; 4.8e8		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+HROH	+ H			--> ROH + H2				; 9e7		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+ROH		+ H			--> HROH					; 2.97e8	; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
+OH	+	Cl-			--> ClOH-					; 4.3e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+OH	+	HClO		--> ClO	+	H2O				; 9e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+OH	+	ClO2- + H+	--> ClO2 +	H2O				; 6.3e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh-	+	Cl			--> Cl-						; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh-	+	Cl2-		--> 2 Cl-					; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh-	+	ClOH-		--> Cl-	+	OH-				; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh-	+	HClO		-->	ClOH-					; 5.3e10	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh-	+ 	Cl2			-->	Cl2-					; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh- + 	Cl3-		--> Cl2- +	Cl-				; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh-	+	ClO2- + H+	--> ClO	+	OH-				; 4.5e10	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+eh-	+	ClO3- + H+	--> ClO2 + OH-				; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H	+	Cl			--> Cl-	+	H+				; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H	+	Cl2-		--> 2 Cl- + H+				; 8e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H	+	ClOH-		-->	Cl- +	H2O				; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H	+	Cl2			-->	Cl2- +	H+				; 7e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H	+	HClO		--> ClOH- + H+				; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H	+	Cl3-		--> Cl2- +	Cl-	+	H+		; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+HO2	+	Cl2-		--> Cl-	+	HCl	+	O2		; 4e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+HCl					--> Cl-	+	H+				; 5e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl- + H+			--> HCl						; 0.629		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+HO2	+	Cl2			--> Cl2- +	O2	+	H+		; 1e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+HO2 +	Cl3-		--> Cl2- +	HCl	+	O2		; 1e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O2- +	Cl2-		--> 2 Cl- +	O2				; 1.2e10	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O2-	+	HClO		--> ClOH- +	O2				; 7.5e6		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H2O2 + 	Cl2-		--> 2 HCl + O2-				; 1.4e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H2O2 + 	Cl2			--> HO2	+	Cl2- +	 H+		; 1.9e2		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H2O2 +	HClO		--> HCl +	H2O	+	O2		; 1.7e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+OH-	+	Cl2-		--> ClOH- +	Cl-				; 7.3e6		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+OH- +	Cl2			--> HClO +	Cl-				; 6e8		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H+	+	ClOH-		--> Cl	+	H2O				; 2.1e10	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H2O	+	Cl2O2		--> HClO +	ClO2-	+	H+	; 1e4		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H2O	+	Cl2O		--> 2 HClO					; 1e2		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H2O +	Cl2O4		--> ClO2-	+ ClO3- + 2 H+  ; 1e2		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H2O	+	Cl2O4		--> HClO	+ HCl	+ O4	; 1e2		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+O4					--> 2 O2					; 1e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl-	+ 	Cl			--> Cl2-					; 2.1e10	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl- + 	ClOH-		--> Cl2-	+	OH-			; 9e4		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl-	+	HClO		--> Cl2	+	OH-				; 1e1		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl- +	Cl2			--> Cl3-					; 1e4		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClOH-				--> OH	+	Cl-				; 6.1e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl2-				--> Cl + Cl-				; 1.1e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 Cl2-				--> Cl3-	+	Cl-			; 7e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl3-				--> Cl2	+	Cl-				; 5e4		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 ClO				--> Cl2O2					; 1.5e10	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 ClO2				--> Cl2O4					; 1e2		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl2O2 + ClO2-		--> ClO3-	+	Cl2O		; 1e2		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 HClO				--> Cl-	+ ClO2-	+ 2 H+		; 6e-9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2-	+ HClO		--> Cl-	+ ClO3-	+ H+		; 9e-7		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 HClO				--> O2	+	2 HCl			; 3e-10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+HClO +	Cl-	+ H+	--> Cl2 + H2O				; 9e3		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl2 + H2O			--> HClO + Cl- + H+			; 15		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl2-	+ H2		--> H + HCl	+ Cl-			; 4.3e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 Cl				--> Cl2						; 8.8e7 	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2	+	O3		--> O2	+ ClO3				; 1.1e3		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2	+	OH		--> ClO3-	+ H+			; 4e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2	+	O-		--> ClO3-					; 2.7e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2	+	O3-		--> O2	+ ClO3-				; 1.8e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2	+	O3-		--> O3	+ ClO2-				; 1.8e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2-	+	O3		--> O3-	+ ClO2				; 4e6		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2				-->	O2	+	Cl				; 6.7e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+HClO				--> H+ + ClO-				; 2e3		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H+ + ClO-			--> HClO					; 5e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+HClO2				--> H+ + ClO2-				; 9.53e8	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+H+ + ClO2-			--> HClO2					; 5e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803	
+Cl + O3-			--> Cl- + O3				; 1e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803	
+ClO + O3-			--> ClO- + O3				; 1e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803	
+Cl2- + ClO2			--> Cl2O2 + Cl-				; 1e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803	
+Cl + ClO2			--> Cl2O2					; 1e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803	
+ClO + ClO2-			--> ClO- + ClO2				; 9.4e8 	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO- + O- + H+		--> ClO + OH-				; 2.3e8		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl- + H2O2			--> ClO- + H2O				; 1.8e-9	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl- + H2O2 + H+		--> HClO + H2O				; 8.3e-7	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO- + H2O2			--> Cl- + O2 + H2O			; 3.4e3		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+HClO + HO2-			--> Cl- + O2 + H2O			; 4.4e7		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl2 + HO2-			--> 2 Cl- + O2 + H+			; 1.1e8		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl + H2O2			--> Cl- + H+ + HO2			; 2e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl + HO2			--> Cl- + H+ + O2			; 3.1e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl + OH-			--> ClOH-					; 1.8e10	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2 + H2O2			--> ClO2- + H+ + HO2		; 4			; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2 + HO2-			--> ClO2- + HO2				; 1.3e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2 + HO2			--> ClO2- + H+ + O2			; 1e6		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2 + O2-			--> ClO2- + O2				; 3e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO2- + O2-			--> ClO- + O- + O2			; 40		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO + ClO2			--> Cl2O3					; 7.4e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClO + ClO3			--> Cl2O4					; 7.4e9		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl2O2 + OH-			--> Cl- + ClO3- + H+		; 1e10		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl2O3 + H2O			--> HClO + ClO3- + H+		; 1e4		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+ClOH- 				--> Cl + OH-				; 23		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl + H2O			--> ClOH- + H+				; 1.8e5		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Cl2- + O3			--> ClO + Cl- + O2			; 9e7		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au(I)Cl2- + 2 Cl- + OH 	--> Au(II)Cl4^2- + OH- 		; 2.6e9 	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au(III)Cl4- + H 		--> Au(II)Cl4^2- + H+ 		; 5.7e9 	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au(III)Cl4- + eh- 		--> Au(II)Cl4^2- 			; 5.7e9 	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+2 Au(II)Cl4^2-	 		--> Au2Cl6^2- + 2 Cl- 		; 1.45e8 	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au(I)Cl2- + eh- 		--> Au + 2 Cl-				; 8e9 		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au(I)Cl2- + H 			--> Au + H+ + 2 Cl- 		; 8e9 		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au(I)Cl2- + HO2- 		--> Au + HO2 + 2 Cl-		; 1.89 		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au(I)Cl2- + H2 			--> Au + H+ + H + 2 Cl- 	; 7.4e-3 	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au(I)Cl2- + O2- 		--> Au + O2 + 2 Cl-			; 1.89 		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au + ClOH- + Cl- 		--> Au(I)Cl2- + OH- 		; 1.83e9 	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au2Cl6^2- 				--> Au(I)Cl2- + Au(III)Cl4- ; 1e2 		; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803
+Au(III)Cl4- + Au + 2 Cl- --> Au(II)Cl4^2- + Au(I)Cl2- ; 0 	; Fritsch et al 2022 https://doi.org/10.1002/advs.202202803 Proposed by Dey et al., reaction rate unknown
+Br- + NO3 			--> Br + NO3- 				; 4e9 		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2- + NO2- 		--> 2 Br- + NO2 			; 2e7 		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+HOONO2 + Br-		--> NO3- + HOBr				; 0.54		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593   
+Br- + OH 			--> BrOH- 					; 1.1e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+BrOH- 				--> Br- + OH 				; 3.3e7     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+BrOH- + H+ 			--> Br + H2O 				; 4.4e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+BrOH- 				--> Br + OH- 				; 4.2e6     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br + OH- 			--> BrOH- 					; 1.3e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br + Br- 			--> Br2- 					; 1.2e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2- 				--> Br + Br- 				; 1.9e4     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+2 Br2- 				--> Br3- + Br- 				; 2.4e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br + Br2- 			--> Br3- 					; 5e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2 + Br- 			--> Br3- 					; 1.6e8     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br3- 				--> Br2 + Br- 				; 1e7       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+2 Br 				--> Br2 					; 5e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br + eh- 			--> Br- 					; 1e10      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2- + eh- 			--> 2 Br- 					; 1.3e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br3- + eh- 			--> Br2- + Br- 				; 2.7e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+H + Br 				--> H+ + Br- 				; 1e10      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2- + H 			--> 2 Br- + H+ 				; 1.4e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br3- + H 			--> Br2- + Br- + H+ 		; 1.2e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2- + HO2			--> O2 + H+ + 2 Br- 		; 1e8       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br3- + HO2 			--> Br2- + HBr + O2 		; 1e7       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+BrOH- + Br- 		--> Br2- + OH- 				; 1.9e8     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2- + OH- 			--> BrOH- + Br- 			; 2.7e6     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br- + H 			--> HBr- 					; 1.7e6     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+HBr- + H+ 			--> H2 + Br 				; 1.1e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+H+ + Br- 			--> HBr 					; 1e4       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+HBr 				--> H+ + Br- 				; 1e13      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+2 Br2- 				--> Br2 + 2 Br-				; 1.9e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593    
+Br + Br2- 			--> Br2 + Br- 				; 2e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2 + eh- 			--> Br2- 					; 5.3e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2 + H 			--> Br2- + H+ 				; 1e10      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br- + O3 			--> BrO- + O2 				; 160       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br + H2O 			--> BrOH- + H+ 				; 1.36      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593   
+Br + H2O2 			--> O2- + Br- + 2 H+		; 4e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br + HO2 			--> H+ + O2 + Br- 			; 1e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2- + H2O2 		--> HO2 + 2 Br- + H+ 		; 5e2       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593              
+Br2- + O2- 			--> O2 + 2 Br- 				; 1.7e8     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2 + HO2 			--> Br2- + O2 + H+ 			; 1.1e8     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2 + O2- 			--> Br2- + O2 				; 5.6e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2 + H2O2 			--> 2 HBr + O2 				; 1.3e3     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2 + H2O 			--> HOBr + Br- + H+ 		; 97        ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br3- + O2- 			--> Br2- + Br- + O2 		; 3.8e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+BrO- + H+ 			--> HOBr 					; 1e10      ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+HOBr 				--> H+ + BrO- 				; 23        ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Br2- + OH 			--> HOBr + Br- 				; 1e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+HOBr + Br- + H+ 	--> Br2 + H2O 				; 5e9       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+HOBr + HO2- 		--> Br- + H2O + O2 			; 7.6e8     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+HOBr + H2O2 		--> HBr + H2O + O2 			; 1.5e4     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+HOBr + O2- 			--> BrOH- + O2				; 3.5e9     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+BrO- + H2O2 		--> Br- + H2O + O2 			; 1.2e6     ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+BrO- + O2- + H2O 	--> Br + 2 OH- + O2 		; 100       ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+BrO- + eh- 			--> Br- + O- 				; 1.5e10    ; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Fe^2+ + H2O2 		--> Fe^3+ + OH + OH- 		; 5.7e2 	; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^2+ + OH 			--> Fe^3+ + OH- 			; 3.2e8 	; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^2+ + OH 			--> FeOH^2+  				; 3.2e8 	; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^2+ + H+ + HO2 	--> H2O2 + Fe^3+			; 1.2e6 	; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^2+ + O2- + 2 H+ 	--> Fe^3+ + H2O2 			; 1e7 		; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^2+ + O3 			--> Fe^3+ + O- + O2 		; 8.2e5		; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^2+ + O- + H+ 	--> Fe^3+ + OH-				; 3.8e9 	; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^3+ + HO2 		--> Fe^2+ + O2 + H+ 		; 3.1e7		; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^3+ + eh- 		--> Fe^2+					; 6e10		; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^3+ + H2O2 		--> Fe^2+ + O2- + 2 H+ 		; 2.6e-3 	; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Fe^3+ + H 			--> Fe^2+ + H+				; 1.2e9 	; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+FeOH^2+ + O2- + H+ 	--> Fe^2+ + O2 + H2O 		; 1.5e8 	; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+FeOH^2+ + H 		--> Fe^2+ + H2O				; 1.2e9 	; Couasnon et al 2023 https://doi.org/10.1002/advs.202301904
+Na+ + eh-	 		--> Na 						; 2e4		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Na + H2O 			--> H + Na+ + OH-			; 1.5e9		; Fritsch, Körner et al 2023 https://doi.org/10.1021/acs.jpclett.3c00593  
+Cs+ + eh-	 		--> Cs 						; 2e4		; Telser and Schindewolf https://pubs.acs.org/doi/pdf/10.1021/j100412a097
+Cs + H2O 			--> H + Cs+ + OH-			; 1.5e9		; assumed as rate-determining step, Telser and Schindewolf https://pubs.acs.org/doi/pdf/10.1021/j100412a097
+K+ + eh-	 		--> K 						; 2e4		; assumed to be similar to Na+, Cs+, Telser and Schindewolf https://pubs.acs.org/doi/pdf/10.1021/j100412a097
+K + H2O 			--> H + K+ + OH-			; 1.5e9		; assumed to be similar to Na+, Cs+, assumed as rate-determining step, Telser and Schindewolf https://pubs.acs.org/doi/pdf/10.1021/j100412a097
+I-	+	OH	 		--> HOI-					; 1.6e10	; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I-	+	I			--> I2-						; 9.1e9		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I2-	+	I			--> I3-						; 6.5e9		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I3- +	eh-			--> I2- + I-				; 3.5e10	; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+2 I2-				--> I-  + I3-				; 2.5e9		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I2- +	H			--> 2 I- + H+				; 1.8e7		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I2	+	H			--> H+ + I2-				; 3.5e10	; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I3- +	H			--> H+ + I2- + I- 			; 3.5e10	; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I2- + 	HO2			--> I2 + HO2-				; 4e9		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+2 I					--> I2						; 1.1e10	; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I3- +	O2-			--> O2 + I2- + I-			; 2.5e8		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I2	+	HO2			--> I2- + H+ + O2			; 1.8e7		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I	+ 	OH-			--> HOI-					; 1.6e8		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+HOI-				--> I + OH-					; 3.5e7		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I2 	+ 	eh-			--> I2-						; 5.1e10	; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
+I- 	+  O- + H2O 	--> HOI- + OH-				; 2.9e9		; Crook et al 2021 https://doi.org/10.1021/jacs.1c05099
