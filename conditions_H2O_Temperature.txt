@@ -1,0 +1,17 @@
+species	c0 / M	g values / (molecules / 100 eV)	g values alt / (molecules / 100 eV)	solubility / %	diffusioncoefficient / m^2/s
+eh-	0.0	2.73	3.10	100	
+H+	1e-7	3.19	3.61	100	
+OH-	1e-7	0.46	0.51	100	
+H2O2	0.0	0.72	0.59	100	
+H	0.0	0.60	0.71	100	
+OH	0.0	2.75	3.57	100	
+HO2	0.0	0.0	0.0	100	
+O2	2.55e-4	0.0	0.00	100	
+H2	0.0	0.43	0.47	100	
+H2O	55.56	-4.65	-5.26	100	
+HO2-					
+HO3					
+O3					
+O3-					
+O2-					
+O-					

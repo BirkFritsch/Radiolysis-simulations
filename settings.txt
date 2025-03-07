@@ -1,0 +1,35 @@
+#Comment: Dose rate can be given with a unit:
+#"Gy/s" for Gray per second,
+#"e/A2s" for electrons per square angstroem second,
+#"e/nm2s" for electrons per square nm per second
+dose rate = 1.55e7 Gy/s
+#Comment: liquid thickness must be given in meters
+liquid thickness = 5e-7
+#Comment: end of the simulation in seconds
+duration = 1e6
+#Comment: flow velocity in m/s
+flow velocity = 0.0
+#Comment: beamlength; how much length in flow direction is being illuminated in m; also used for diffusion
+length = 6.5e-9
+#Comment: Default diffusion coefficient in m^2/s; usually 2.1e-9; calculated from Kang-Paper: 1.29e-18
+diffusioncoefficient = 2.1e-9
+#Comment: Temperature in K to calculate rate constants
+temperature = 293
+#Comment: Potential in V
+potential = 0.0
+#Comment: Percentage to what extend G2 or G1 values specified in conditions are used: 0.0 => 100% G1 + 0% G2, 1.0 => 0% G1 + 100% G2
+#Comment: To calculate a temperature, say T_target, T_Gvalueset1, T_Gvalueset2; via: ratio = (T_target - T_Gvalueset1) / (T_Gvalueset2 - T_Gvalueset1)  
+G2 to G1 ratio = 0.0
+
+
+
+##############advanced parameters##############
+#Comment: Liquid density in kg/dm3
+density = 1
+#Comment: mean free path of the solvent in meters
+mean free path = 3.8e-7
+#Comment: stopping power of the elctron beam in the solvent in MeV cm2/g
+stopping power = 2.36
+#Comment: relative and absolute tolerance of the solver
+rtol = 1e-3
+atol = 1e-15
