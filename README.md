@@ -36,10 +36,12 @@ A reaction file for simulating an aqueous solution containing Fe(II)/Fe(III) can
 
 T. Couasnon, B. Fritsch, M.P.M. Jank, R. Blukis, A. Hutzler, L. Benning, Goethite Mineral Dissolution to Probe the Chemistry of Radiolytic Water in Liquid-Phase Transmission Electron Microscopy, _Advanced Science_ 2023, 10 (25), 2301904. [DOI:10.1002/advs.202301904](https://doi.org/10.1002/advs.202301904).
 
-To create subsets of reaction networks (sparse reaction sets), the script in the folder "Sparse Reaction Files" can be used. Alongside, you'll find three examples. Those, as well as the concept, are explained in 
+To to reproduce the findings concerning
 
 B. Fritsch, P. Malgareti, J. Harting, Karl J.J. Mayrhofer, A. Hutzler, Precision of Radiation Chemistry Networks: Playing Jenga with Kinetic Models for Liquid-Phase Electron Microscopy,
 _Precision Chemistry_ 2023, 1 (10), 592-601. [DOI:10.1021/prechem.3c00078](https://doi.org/10.1021/prechem.3c00078).
+
+The reaction files in the folder "Sparse Reaction Files" can be used. Moreover, the "sparsen_reaction_set" function of "build_reaction_sets.py" was used to perform the study.
 
 Reaction files for simulating aqueous AgNO<sub>3</sub> solutions with and without tert-butanol are found in "AuRach reaction networks AgNO3". When using them, please cite
 
