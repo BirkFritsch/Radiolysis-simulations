@@ -46,3 +46,9 @@ Reaction files for simulating aqueous AgNO<sub>3</sub> solutions with and withou
 J. Sun, B. Fritsch, A. Körner, M. Taherkhani, C. Park, M. Wang, A. Hutzler and T. Woehl, Discovery of molecular intermediates and non-classical nanoparticle formation mechanisms by liquid phase electron microscopy and reaction throughput analysis, _Small Structures_ 2024, 5 (10), 2400146. [DOI:10.1002/sstr.202400146](https://doi.org/10.1002/sstr.202400146)
 
 Note that the GUI is currently not under development. Maybe we find time to pick this up again, but in any case we welcome anyone who would like to contribute to this side project, too. Please use the AuRaCh code file to run the simulations or contact me in case of further questions.
+
+## Release notes
+
+-Updated AuRaCh to enable temperature-dependent simulations.
+-Added many helper files. Note, not all are tested for compatibility with the new AuRaCh version.
+-Testing incomplete. Absolutely no warranty whatsoever given. Please report bugs.
