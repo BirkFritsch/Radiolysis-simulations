@@ -173,7 +173,7 @@ Ag^2+ + H			--> Ag+ + H+				; 4.8e10 	; Sun et al 2024 https://doi.org/10.1002/s
 AgO+ + H2O 			--> Ag+ + H2O2 				; 7.1e5     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
 Ag^2+ + H2O2 		--> Ag+ + H+ + HO2 			; 4.5e7     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
 Ag^2+ + HO2 		--> Ag+ + H+ + O2 			; 1.7e8     ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
-Ag + Ag+ 			--> Ag2^+  					; 5.9e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146                                                                                          ?                       
+Ag + Ag+ 			--> Ag2^+  					; 5.9e9		; Sun et al 2024 https://doi.org/10.1002/sstr.202400146                                                                                          ?                  
 Ag+ + O2- 			--> Ag + O2 				; 64        ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
 Ag + O2- 			--> Ag- + O2 				; 1e10 	    ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
 Ag- + O2 			--> Ag + O2- 				; 2e9	    ; Sun et al 2024 https://doi.org/10.1002/sstr.202400146
